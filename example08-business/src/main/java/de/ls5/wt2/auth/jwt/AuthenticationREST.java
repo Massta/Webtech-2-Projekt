@@ -36,13 +36,13 @@ public class AuthenticationREST {
         WT2Realm.WriteDebug("Posted auth info: user="+user+", pw="+pwd);
 
         DBUser dbUser = CRUDHelper.getUser(entityManager, user);
-        WT2Realm.WriteDebug("Retrieved from db: user="+dbUser.getUserName()+", pw="+dbUser.getPassword());
 
         if(dbUser == null){
             return Response.status(Status.UNAUTHORIZED).build();
         }
 
         if (!dbUser.getPassword().equals(pwd)) {
+            WT2Realm.WriteDebug("Retrieved from db: user="+dbUser.getUserName()+", pw="+dbUser.getPassword());
             return Response.status(Status.UNAUTHORIZED).build();
         }
         String token = JWTUtil.createJWToken(credentials);

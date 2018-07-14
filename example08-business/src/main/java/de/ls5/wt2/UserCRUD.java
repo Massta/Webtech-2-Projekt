@@ -45,7 +45,6 @@ public class UserCRUD {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    @RequiresAuthentication
     //@RequiresRoles("admin")
     public Response create(final DBUser param) {
 
@@ -56,6 +55,14 @@ public class UserCRUD {
         user.setIsAdmin(false);
 
         this.entityManager.persist(user);
+
+        final DBTodo sampleTodo = new DBTodo();
+
+        sampleTodo.setUserName(user.getUserName());
+        sampleTodo.setDescription("Dies ist ein Beispiel Todo, damit der User sehen kann, wie das aussieht.");
+        sampleTodo.setTitle("Beispiel Todo für den neuen User "+user.getUserName());
+
+        this.entityManager.persist(sampleTodo);
 
         return Response.ok(user).build();
     }
