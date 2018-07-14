@@ -8,15 +8,15 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class DBUser extends DBIdentified {
 
     private String userName;
-    private int userId;
+    private boolean isAdmin;
     private String password;
 
-    public int getUserId() {
-        return userId;
+    public boolean getIsAdmin() {
+        return isAdmin;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setIsAdmin(boolean isAdmin) {
+        this.isAdmin = isAdmin;
     }
 
     public String getUserName() {

@@ -20,6 +20,7 @@ public class StartupBean {
 
         final DBNews firstNewsItem = this.entityManager.find(DBNews.class, 1L);
         final DBTodo firstTodoItem = this.entityManager.find(DBTodo.class, 1L);
+        final DBUser firstAdmin = this.entityManager.find(DBUser.class, 1L);
 
         // only initialize once
         if (firstNewsItem == null) {
@@ -42,6 +43,22 @@ public class StartupBean {
 
                 this.entityManager.persist(todo);
             }
+        }
+        // only initialize once
+        if (firstAdmin == null) {
+            final DBUser testUser = new DBUser();
+            final DBUser testAdmin = new DBUser();
+
+            testUser.setUserName("user");
+            testUser.setPassword("password");
+            testUser.setIsAdmin(false);
+
+            testAdmin.setUserName("admin");
+            testAdmin.setPassword("password");
+            testAdmin.setIsAdmin(true);
+
+            this.entityManager.persist(testUser);
+            this.entityManager.persist(testAdmin);
         }
     }
 

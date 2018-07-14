@@ -1,6 +1,8 @@
 package de.ls5.wt2.auth.jwt;
 
 import com.nimbusds.jose.JOSEException;
+import de.ls5.wt2.CRUDHelper;
+import de.ls5.wt2.DBUser;
 import de.ls5.wt2.auth.WT2Realm;
 
 import javax.persistence.EntityManager;
@@ -29,7 +31,16 @@ public class AuthenticationREST {
         final String user = credentials.getUsername();
         final String pwd = credentials.getPassword();
 
-        if (!user.equals("test")) {
+        WT2Realm.WriteDebug("Posted auth info: user="+user+", pw="+pwd);
+
+        DBUser dbUser = CRUDHelper.getUser(entityManager, user);
+        WT2Realm.WriteDebug("Retrieved from db: user="+dbUser.getUserName()+", pw="+dbUser.getPassword());
+
+        if(dbUser == null){
+            return Response.status(Status.UNAUTHORIZED).build();
+        }
+
+        if (!dbUser.getPassword().equals(pwd)) {
             return Response.status(Status.UNAUTHORIZED).build();
         }
         String token = JWTUtil.createJWToken(credentials);

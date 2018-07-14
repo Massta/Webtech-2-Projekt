@@ -33,9 +33,9 @@ public class UserCRUD {
 
         final Root<DBUser> from = query.from(DBUser.class);
 
-        //final Order order = builder.desc(from.get(DBUser_.title));
+        final Order order = builder.desc(from.get(DBUser_.userName));
 
-        //query.select(from).orderBy(order);
+        query.select(from).orderBy(order);
 
         final List<DBUser> result = this.entityManager.createQuery(query).getResultList();
 
@@ -53,7 +53,7 @@ public class UserCRUD {
 
         user.setUserName(param.getUserName());
         user.setPassword(param.getPassword());
-        user.setUserId(param.getUserId());
+        user.setIsAdmin(false);
 
         this.entityManager.persist(user);
 

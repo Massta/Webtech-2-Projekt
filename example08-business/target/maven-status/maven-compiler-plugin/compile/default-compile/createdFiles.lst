@@ -4,6 +4,7 @@ de\ls5\wt2\auth\permission\ViewFirstFiveNewsItemsPermission.class
 de\ls5\wt2\conf\JAXRSActivator.class
 de\ls5\wt2\auth\jwt\JWTLoginData.class
 de\ls5\wt2\StartupBean.class
+de\ls5\wt2\UserCRUD.class
 de\ls5\wt2\auth\jwt\JWTWT2Realm.class
 de\ls5\wt2\conf\JacksonProvider.class
 de\ls5\wt2\auth\jwt\JWTShiroToken.class
@@ -13,5 +14,6 @@ de\ls5\wt2\auth\RESTServiceAuthenticator.class
 de\ls5\wt2\TodoCRUD.class
 de\ls5\wt2\auth\DatabaseAuthenticator.class
 de\ls5\wt2\auth\jwt\JWTUtil.class
+de\ls5\wt2\CRUDHelper.class
 de\ls5\wt2\NewsCRUD.class
 de\ls5\wt2\auth\WT2Realm$1.class
