@@ -1,6 +1,7 @@
 package de.ls5.wt2.auth.jwt;
 
 import com.nimbusds.jose.JWSObject;
+import de.ls5.wt2.auth.WT2Realm;
 import net.minidev.json.JSONObject;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -21,6 +22,7 @@ public class JWTAuthenticationFilter extends AuthenticatingFilter {
     @Override
     protected AuthenticationToken createToken(ServletRequest request, ServletResponse response) {
 
+        WT2Realm.WriteDebug("createToken");
         final HttpServletRequest httpRequest = WebUtils.toHttp(request);
         final String authzHeader = httpRequest.getHeader(AUTHORIZATION);
 
@@ -35,6 +37,7 @@ public class JWTAuthenticationFilter extends AuthenticatingFilter {
     @Override
     protected boolean onAccessDenied(ServletRequest request, ServletResponse response) throws Exception {
 
+        WT2Realm.WriteDebug("accessDenied");
         // if shiro doesn't recognizes us as logged in, try login in
         final boolean loggedIn = executeLogin(request, response);
 
@@ -49,6 +52,7 @@ public class JWTAuthenticationFilter extends AuthenticatingFilter {
     }
 
     private JWTShiroToken buildShiroToken(String token) {
+        WT2Realm.WriteDebug("buildtoken");
         try {
             final JWSObject jwsObject = JWSObject.parse(token);
             final JSONObject payload = jwsObject.getPayload().toJSONObject();

@@ -5,6 +5,7 @@ import com.nimbusds.jose.crypto.MACSigner;
 import com.nimbusds.jose.crypto.MACVerifier;
 import com.nimbusds.jwt.JWTClaimsSet;
 import com.nimbusds.jwt.SignedJWT;
+import de.ls5.wt2.auth.WT2Realm;
 
 import java.text.ParseException;
 import java.util.Date;
@@ -43,6 +44,7 @@ public class JWTUtil {
     }
 
     public static boolean validateToken(String token) {
+        WT2Realm.WriteDebug("validatetoken");
         try {
             final SignedJWT signed = SignedJWT.parse(token);
             final JWSVerifier verifier = new MACVerifier(getSharedKey());

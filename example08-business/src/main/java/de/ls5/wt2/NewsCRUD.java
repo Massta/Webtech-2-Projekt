@@ -1,5 +1,6 @@
 package de.ls5.wt2;
 
+import de.ls5.wt2.auth.WT2Realm;
 import de.ls5.wt2.auth.permission.ViewFirstFiveNewsItemsPermission;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authz.Permission;
@@ -7,6 +8,7 @@ import org.apache.shiro.authz.annotation.RequiresAuthentication;
 import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.apache.shiro.subject.Subject;
 
+import javax.jms.Session;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.criteria.CriteriaBuilder;
@@ -17,6 +19,7 @@ import javax.transaction.Transactional;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.Collection;
 import java.util.Date;
 
 @Path("/{a:session|basic|jwt}/news")
@@ -58,6 +61,8 @@ public class NewsCRUD {
     //@RequiresAuthentication
     //@RequiresRoles("admin")
     public Response create(final DBNews param) {
+
+        String userName = CRUDHelper.getUserName(SecurityUtils.getSubject());
 
         final DBNews news = new DBNews();
 

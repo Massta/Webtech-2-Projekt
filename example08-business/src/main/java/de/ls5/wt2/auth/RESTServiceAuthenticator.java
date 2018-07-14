@@ -11,6 +11,7 @@ public class RESTServiceAuthenticator extends BasicHttpAuthenticationFilter {
 
     @Override
     protected boolean sendChallenge(ServletRequest request, ServletResponse response) {
+        WT2Realm.WriteDebug("sendchallenge");
         HttpServletResponse httpResponse = WebUtils.toHttp(response);
         httpResponse.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
         /** set no {@link AUTHENTICATE_HEADER}-header, so the browser does nothing **/

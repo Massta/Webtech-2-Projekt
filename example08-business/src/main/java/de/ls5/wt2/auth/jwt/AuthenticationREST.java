@@ -1,6 +1,7 @@
 package de.ls5.wt2.auth.jwt;
 
 import com.nimbusds.jose.JOSEException;
+import de.ls5.wt2.auth.WT2Realm;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -28,11 +29,12 @@ public class AuthenticationREST {
         final String user = credentials.getUsername();
         final String pwd = credentials.getPassword();
 
-        if (!user.equals(pwd)) {
+        if (!user.equals("test")) {
             return Response.status(Status.UNAUTHORIZED).build();
         }
-
-        return Response.ok(JWTUtil.createJWToken(credentials)).build();
+        String token = JWTUtil.createJWToken(credentials);
+        WT2Realm.WriteDebug("Generated Token "+token);
+        return Response.ok(token).build();
     }
 
 }

@@ -17,7 +17,9 @@ public class DatabaseAuthenticator {
 
     public AuthenticationInfo fetchAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         final String user = (String) token.getPrincipal();
-        return new SimpleAccount(user, user.toCharArray(), WT2Realm.REALM);
+        SimpleAccount account = new SimpleAccount(user, user.toCharArray(), WT2Realm.REALM);
+        WT2Realm.WriteDebug("fetchAuth: "+account.toString());
+        return account;
     }
 
 }

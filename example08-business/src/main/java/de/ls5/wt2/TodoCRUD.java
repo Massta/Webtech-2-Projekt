@@ -1,5 +1,6 @@
 package de.ls5.wt2;
 
+import de.ls5.wt2.auth.WT2Realm;
 import org.apache.shiro.authz.annotation.RequiresAuthentication;
 
 import javax.persistence.EntityManager;
@@ -26,6 +27,7 @@ public class TodoCRUD {
     @Path("index")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getTodos() {
+        WT2Realm.WriteDebug("getTodos");
         final CriteriaBuilder builder = this.entityManager.getCriteriaBuilder();
         final CriteriaQuery<DBTodo> query = builder.createQuery(DBTodo.class);
 
