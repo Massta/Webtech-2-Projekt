@@ -1,7 +1,9 @@
 package de.ls5.wt2;
 
 import de.ls5.wt2.auth.WT2Realm;
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authz.annotation.RequiresAuthentication;
+import org.h2.upgrade.DbUpgrade;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -26,8 +28,16 @@ public class TodoCRUD {
     @GET
     @Path("index")
     @Produces(MediaType.APPLICATION_JSON)
+    @RequiresAuthentication
     public Response getTodos() {
         WT2Realm.WriteDebug("getTodos");
+        String userName = CRUDHelper.getUserName(SecurityUtils.getSubject());
+        DBUser user = CRUDHelper.getUser(entityManager, userName);
+        if(userName.equals("")){
+            //Unauthorized
+            WT2Realm.WriteDebug("User is not logged in, can't retrieve todos");
+            return Response.status(401).build();
+        }
         final CriteriaBuilder builder = this.entityManager.getCriteriaBuilder();
         final CriteriaQuery<DBTodo> query = builder.createQuery(DBTodo.class);
 
@@ -36,6 +46,13 @@ public class TodoCRUD {
         final Order order = builder.desc(from.get(DBTodo_.title));
 
         query.select(from).orderBy(order);
+
+        if(!user.getIsAdmin()){
+            query.where(builder.equal(from.get("userName"),userName));
+            WT2Realm.WriteDebug("User "+userName+" is not an admin, showing only their todos");
+        }else{
+            WT2Realm.WriteDebug("User "+userName+" is an admin, showing all");
+        }
 
         final List<DBTodo> result = this.entityManager.createQuery(query).getResultList();
 
@@ -53,7 +70,7 @@ public class TodoCRUD {
 
         todo.setTitle(param.getTitle());
         todo.setDescription(param.getDescription());
-        todo.setUserId(param.getUserId());
+        todo.setUserName(param.getUserName());
 
         this.entityManager.persist(todo);
 

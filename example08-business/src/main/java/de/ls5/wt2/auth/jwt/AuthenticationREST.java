@@ -4,11 +4,13 @@ import com.nimbusds.jose.JOSEException;
 import de.ls5.wt2.CRUDHelper;
 import de.ls5.wt2.DBUser;
 import de.ls5.wt2.auth.WT2Realm;
+import org.apache.shiro.SecurityUtils;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.MediaType;
@@ -46,6 +48,21 @@ public class AuthenticationREST {
         String token = JWTUtil.createJWToken(credentials);
         WT2Realm.WriteDebug("Generated Token "+token);
         return Response.ok(token).build();
+    }
+
+    @Path("logout")
+    @GET
+    public Response logout() throws JOSEException {
+
+
+        String userName = CRUDHelper.getUserName(SecurityUtils.getSubject());
+        if(userName.equals("")){
+            WT2Realm.WriteDebug("Need to be logged in to log out");
+            return Response.status(401).build();
+        }
+        SecurityUtils.getSubject().logout();
+        WT2Realm.WriteDebug("Logged out "+userName);
+        return Response.status(200).build();
     }
 
 }

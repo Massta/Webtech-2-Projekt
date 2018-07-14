@@ -9,8 +9,8 @@ import javax.persistence.metamodel.StaticMetamodel;
 public abstract class DBTodo_ extends de.ls5.wt2.DBIdentified_ {
 
 	public static volatile SingularAttribute<DBTodo, String> description;
+	public static volatile SingularAttribute<DBTodo, String> userName;
 	public static volatile SingularAttribute<DBTodo, String> title;
-	public static volatile SingularAttribute<DBTodo, Integer> userId;
 
 }
 

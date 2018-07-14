@@ -1,6 +1,7 @@
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\auth\jwt\JWTWT2Realm.java
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\auth\DatabaseAuthenticator.java
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\StartupBean.java
+C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\CRUDHelper.java
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\auth\jwt\AuthenticationREST.java
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\auth\jwt\JWTShiroToken.java
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\auth\permission\ViewFirstFiveNewsItemsPermission.java
@@ -9,6 +10,7 @@ C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\mai
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\auth\jwt\JWTAuthenticationFilter.java
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\NewsCRUD.java
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\conf\JAXRSActivator.java
+C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\UserCRUD.java
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\conf\JacksonProvider.java
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\TodoCRUD.java
 C:\Users\Julius Jacobsohn\Documents\Webtech 2 Projekt\example08-business\src\main\java\de\ls5\wt2\auth\jwt\JWTLoginData.java

@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/dart" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/dart/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/dart/build" />
+      <excludeFolder url="file://$MODULE_DIR$/src/main/dart/lib/components/session" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

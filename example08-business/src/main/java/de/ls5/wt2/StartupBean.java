@@ -34,12 +34,21 @@ public class StartupBean {
         }
         // only initialize once
         if (firstTodoItem == null) {
-            for(int i = 0; i < 5; i++){
+            for(int i = 0; i < 3; i++){
                 final DBTodo todo = new DBTodo();
 
                 todo.setTitle("Todo #"+i);
-                todo.setDescription("Dies ist das "+i+". Beispiel Todo.");
-                todo.setUserId(0);
+                todo.setDescription("Dies ist das "+i+". Beispiel Todo von admin.");
+                todo.setUserName("admin");
+
+                this.entityManager.persist(todo);
+            }
+            for(int i = 3; i < 5; i++){
+                final DBTodo todo = new DBTodo();
+
+                todo.setTitle("Todo #"+i);
+                todo.setDescription("Dies ist das "+i+". Beispiel Todo von user.");
+                todo.setUserName("user");
 
                 this.entityManager.persist(todo);
             }
