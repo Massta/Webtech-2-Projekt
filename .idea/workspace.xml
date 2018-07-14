@@ -2,32 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="653416c9-588d-47e0-98c6-d70b45edf998" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/create_component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/newest/newest_component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/CRUDHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/CRUDHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/StartupBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/StartupBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/auth/jwt/AuthenticationREST.java" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/auth/jwt/AuthenticationREST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/StartupBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/StartupBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/TodoCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/TodoCRUD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/auth/jwt/AuthenticationREST.class" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/auth/jwt/AuthenticationREST.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-business/target/example08-business-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/example08-business-0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-persistence/src/main/java/de/ls5/wt2/DBTodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/example08-persistence/src/main/java/de/ls5/wt2/DBTodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-persistence/target/classes/de/ls5/wt2/DBTodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/example08-persistence/target/classes/de/ls5/wt2/DBTodo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-persistence/target/classes/de/ls5/wt2/DBTodo_.class" beforeDir="false" afterPath="$PROJECT_DIR$/example08-persistence/target/classes/de/ls5/wt2/DBTodo_.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-persistence/target/example08-persistence-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-persistence/target/example08-persistence-0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-persistence/target/generated-sources/de/ls5/wt2/DBTodo_.java" beforeDir="false" afterPath="$PROJECT_DIR$/example08-persistence/target/generated-sources/de/ls5/wt2/DBTodo_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/example08-presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/example08-presentation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/todo/desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/desktop.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/todo/list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/todo/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/todo/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/todo/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/todo/list.ng_placeholder" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-business-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-business-0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-persistence-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-persistence-0.1-SNAPSHOT.jar" afterDir="false" />
@@ -81,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -93,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/CRUDHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +88,8 @@
       <file leaf-file-name="login_component.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+            <state relative-caret-position="119">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -652,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531605515970</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Fix] Finished auth stuff for now; added logout function so that sessions get terminated server-side">
+      <created>1531609033555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531609033555</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -666,10 +657,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.13539445" />
       <window_info anchor="bottom" id="Dart Analysis" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.1764706" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -719,7 +710,8 @@
     <MESSAGE value="[Fix] Changed path of wildfly" />
     <MESSAGE value="[Fix] Readded JWT auth, Added code to read username in requests" />
     <MESSAGE value="[Fix] Added crudhelper to get username etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Added crudhelper to get username etc." />
+    <MESSAGE value="[Fix] Finished auth stuff for now; added logout function so that sessions get terminated server-side" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Finished auth stuff for now; added logout function so that sessions get terminated server-side" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/persistence/criteria/CriteriaQuery.class">
@@ -1089,7 +1081,7 @@
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -1099,7 +1091,7 @@
     <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/CRUDHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1115,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
