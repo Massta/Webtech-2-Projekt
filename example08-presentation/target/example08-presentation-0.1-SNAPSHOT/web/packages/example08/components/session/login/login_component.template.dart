@@ -47,7 +47,6 @@ List<StaticNodeDebugInfo> nodeDebugInfos_Login0 = [
   new StaticNodeDebugInfo([TemplateRef, NgIf], null, <String, dynamic>{}),
   null,
   new StaticNodeDebugInfo([TemplateRef, NgIf], null, <String, dynamic>{}),
-  null,
   null
 ];
 
@@ -61,7 +60,7 @@ class ViewLogin0 extends DebugAppView<import4.Login> {
   static RenderComponentType _renderType;
   ViewLogin0(AppView<dynamic> parentView, num parentIndex) : super(import9.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways, nodeDebugInfos_Login0) {
     rootEl = import5.document.createElement('login');
-    _renderType ??= import11.appViewUtils.createRenderType('package:example08/components/basic/login/login_component.html', ViewEncapsulation.None, styles$Login);
+    _renderType ??= import11.appViewUtils.createRenderType('package:example08/components/session/login/login_component.html', ViewEncapsulation.None, styles$Login);
     setupComponentType(_renderType);
   }
   @override
@@ -97,10 +96,7 @@ class ViewLogin0 extends DebugAppView<import4.Login> {
     import5.Text _text_8 = new import5.Text('\n');
     _el_0.append(_text_8);
     dbgElm(this, _text_8, 8, 20, 87);
-    import5.Text _text_9 = new import5.Text('\n');
-    parentRenderNode.append(_text_9);
-    dbgElm(this, _text_9, 9, 21, 6);
-    init(const [], const [], [_el_0, _text_1, _el_2, _text_3, _text_4, _anchor_5, _text_6, _anchor_7, _text_8, _text_9]);
+    init(const [], const [], [_el_0, _text_1, _el_2, _text_3, _text_4, _anchor_5, _text_6, _anchor_7, _text_8]);
     return null;
   }
 

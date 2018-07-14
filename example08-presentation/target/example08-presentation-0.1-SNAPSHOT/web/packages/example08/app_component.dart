@@ -5,8 +5,7 @@ import 'package:example08/components/session/session_component.dart';
     selector: 'my-app',
     directives: const [SessionComponent],
     template: ''' 
-      <h1>TUDo</h1>
-      Bitte in der gr8en app einloggen <3
+      <h1>{{name}}</h1>
       <session-component></session-component>
     ''')
 class AppComponent {

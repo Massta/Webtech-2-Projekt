@@ -39,9 +39,11 @@ List<StaticNodeDebugInfo> nodeDebugInfos_AppComponent0 = [
 
 class ViewAppComponent0 extends DebugAppView<import3.AppComponent> {
   import4.Element _el_1;
+  import4.Text _text_2;
   import4.Element _el_4;
   import5.ViewSessionComponent0 _compView_4;
   import1.SessionComponent _SessionComponent_4_4;
+  var _expr_0;
   static RenderComponentType _renderType;
   ViewAppComponent0(AppView<dynamic> parentView, num parentIndex) : super(import8.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways, nodeDebugInfos_AppComponent0) {
     rootEl = import4.document.createElement('my-app');
@@ -56,21 +58,21 @@ class ViewAppComponent0 extends DebugAppView<import3.AppComponent> {
     dbgElm(this, _text_0, 0, 0, 0);
     var doc = import4.document;
     _el_1 = createAndAppendDbg(this, doc, 'h1', parentRenderNode, 1, 0, 6);
-    import4.Text _text_2 = new import4.Text('TUDo');
+    _text_2 = new import4.Text('');
     _el_1.append(_text_2);
     dbgElm(this, _text_2, 2, 0, 10);
-    import4.Text _text_3 = new import4.Text('\n      Bitte in der gr8en app einloggen <3\n      ');
+    import4.Text _text_3 = new import4.Text('\n      ');
     parentRenderNode.append(_text_3);
-    dbgElm(this, _text_3, 3, 0, 19);
+    dbgElm(this, _text_3, 3, 0, 23);
     _compView_4 = new import5.ViewSessionComponent0(this, 4);
     _el_4 = _compView_4.rootEl;
     parentRenderNode.append(_el_4);
-    dbgElm(this, _el_4, 4, 2, 6);
+    dbgElm(this, _el_4, 4, 1, 6);
     _SessionComponent_4_4 = new import1.SessionComponent();
     _compView_4.create(_SessionComponent_4_4, []);
     import4.Text _text_5 = new import4.Text('\n    ');
     parentRenderNode.append(_text_5);
-    dbgElm(this, _text_5, 5, 2, 45);
+    dbgElm(this, _text_5, 5, 1, 45);
     init(const [], const [], [_text_0, _el_1, _text_2, _text_3, _el_4, _text_5]);
     return null;
   }
@@ -85,6 +87,13 @@ class ViewAppComponent0 extends DebugAppView<import3.AppComponent> {
 
   @override
   void detectChangesInternal() {
+    final import3.AppComponent _ctx = ctx;
+    dbg(2, 0, 10);
+    final currVal_0 = import10.interpolate0(_ctx.name);
+    if (import10.checkBinding(_expr_0, currVal_0)) {
+      _text_2.text = currVal_0;
+      _expr_0 = currVal_0;
+    }
     _compView_4.detectChanges();
   }
 

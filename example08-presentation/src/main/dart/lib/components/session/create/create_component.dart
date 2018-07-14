@@ -6,7 +6,7 @@ import 'package:example08/model/news.dart';
 
 @Component(
     selector: 'create-news',
-    templateUrl: '../../basic/create/create_component.html',
+    templateUrl: 'create_component.html',
     directives: formDirectives)
 class CreateNews {
   News model;

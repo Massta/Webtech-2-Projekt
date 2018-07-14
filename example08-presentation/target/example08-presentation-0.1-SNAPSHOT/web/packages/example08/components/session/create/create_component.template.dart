@@ -106,7 +106,7 @@ class ViewCreateNews0 extends DebugAppView<import8.CreateNews> {
   static RenderComponentType _renderType;
   ViewCreateNews0(AppView<dynamic> parentView, num parentIndex) : super(import13.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways, nodeDebugInfos_CreateNews0) {
     rootEl = import9.document.createElement('create-news');
-    _renderType ??= import15.appViewUtils.createRenderType('package:example08/components/basic/create/create_component.html', ViewEncapsulation.None, styles$CreateNews);
+    _renderType ??= import15.appViewUtils.createRenderType('package:example08/components/session/create/create_component.html', ViewEncapsulation.None, styles$CreateNews);
     setupComponentType(_renderType);
   }
   @override

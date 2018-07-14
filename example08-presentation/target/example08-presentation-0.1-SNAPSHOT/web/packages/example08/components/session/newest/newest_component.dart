@@ -6,7 +6,7 @@ import 'package:example08/model/news.dart';
 
 @Component(
     selector: 'show-newest',
-    templateUrl: '../../basic/newest/newest_component.html',
+    templateUrl: 'newest_component.html',
     directives: CORE_DIRECTIVES)
 class ShowNewest {
   News loaded;

@@ -57,7 +57,7 @@ class ViewShowNewest0 extends DebugAppView<import4.ShowNewest> {
   static RenderComponentType _renderType;
   ViewShowNewest0(AppView<dynamic> parentView, num parentIndex) : super(import9.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways, nodeDebugInfos_ShowNewest0) {
     rootEl = import5.document.createElement('show-newest');
-    _renderType ??= import11.appViewUtils.createRenderType('package:example08/components/basic/newest/newest_component.html', ViewEncapsulation.None, styles$ShowNewest);
+    _renderType ??= import11.appViewUtils.createRenderType('package:example08/components/session/newest/newest_component.html', ViewEncapsulation.None, styles$ShowNewest);
     setupComponentType(_renderType);
   }
   @override
