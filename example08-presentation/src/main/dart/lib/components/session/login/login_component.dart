@@ -5,7 +5,7 @@ import 'package:angular_forms/angular_forms.dart';
 
 @Component(
     selector: 'login',
-    templateUrl: '../../basic/login/login_component.html',
+    templateUrl: 'login_component.html',
     directives: const [CORE_DIRECTIVES, formDirectives])
 class Login {
   String username;
