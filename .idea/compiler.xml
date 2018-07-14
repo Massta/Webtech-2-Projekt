@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="example08-business" />
+        <module name="example08-persistence" />
+        <module name="example08-presentation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="example08-business" target="1.8" />
+      <module name="example08-parent" target="1.8" />
+      <module name="example08-persistence" target="1.8" />
+      <module name="example08-presentation" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

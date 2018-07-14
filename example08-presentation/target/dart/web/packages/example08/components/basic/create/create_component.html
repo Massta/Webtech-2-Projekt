@@ -1,0 +1,20 @@
+<div>
+    <h3>Post News</h3>
+    <form>
+        <dl>
+            <dt>
+                <label>Headline</label>
+            </dt>
+            <dd>
+                <input [(ngModel)]="model.headline" type="text" required/>
+            </dd>
+            <dt>
+                <label>Content</label>
+            </dt>
+            <dd>
+                <input [(ngModel)]="model.content" type="text" required/>
+            </dd>
+        </dl>
+        <button type="submit" (click)="postNews($event)">Submit</button>
+    </form>
+</div>

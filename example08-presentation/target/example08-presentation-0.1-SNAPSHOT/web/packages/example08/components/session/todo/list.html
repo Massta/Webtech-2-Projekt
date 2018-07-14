@@ -1,0 +1,19 @@
+<div>
+    <h3>Todos zeigen</h3>
+    <div *ngIf="hasBeenLoaded()">
+        <div *ngFor="let todo of loaded;">
+            <dl>
+                <dt>Titel</dt>
+                <dd>{{todo.title}}</dd>
+                <dt>Beschreibung</dt>
+                <dd>{{todo.description}}</dd>
+                <dt>UserId</dt>
+                <dd>{{todo.userId}}</dd>
+            </dl>
+        </div>
+    </div>
+    <div *ngIf="!hasBeenLoaded()">
+        Loading...
+    </div>
+    <button type="button" (click)="loadTodos($event)">Todos anzeigen</button>
+</div>

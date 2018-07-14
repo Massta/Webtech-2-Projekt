@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/example08-business/example08-business.iml" filepath="$PROJECT_DIR$/example08-business/example08-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example08-parent.iml" filepath="$PROJECT_DIR$/example08-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example08-persistence/example08-persistence.iml" filepath="$PROJECT_DIR$/example08-persistence/example08-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example08-presentation/example08-presentation.iml" filepath="$PROJECT_DIR$/example08-presentation/example08-presentation.iml" />
+    </modules>
+  </component>
+</project>
