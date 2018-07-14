@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="653416c9-588d-47e0-98c6-d70b45edf998" name="Default" comment="" />
+    <list default="true" id="653416c9-588d-47e0-98c6-d70b45edf998" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/example08-business/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/example08-persistence/target/" />
@@ -39,8 +41,8 @@
       <file leaf-file-name="shiro.ini" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="102">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -67,6 +69,9 @@
       <find>news</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -75,7 +80,6 @@
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/web/index.html" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/pom.xml" />
-        <option value="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/example08-ds.xml" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart" />
         <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/NewsCRUD.java" />
@@ -84,6 +88,7 @@
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/todo/list.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/todo/list.html" />
         <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/StartupBean.java" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" />
       </list>
     </option>
   </component>
@@ -121,6 +126,7 @@
     <option name="width" value="1918" />
     <option name="height" value="1038" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -390,7 +396,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Dart Analysis" order="8" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
@@ -769,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
