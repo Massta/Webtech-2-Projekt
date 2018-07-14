@@ -21,7 +21,7 @@
         <shiro.version>1.4.0</shiro.version>
 
         <h2.path>${env.HOME}/example07</h2.path>
-        <wildfly.path>C:\Users\Julius Jacobsohn\Documents\wildfly-12.0.0.Final</wildfly.path>
+        <wildfly.path>C:\Program Files\wildfly-12.0.0.Final</wildfly.path>
         <dart-sdk.path>C:\Program Files\Dart\dart-sdk</dart-sdk.path>
     </properties>
 
