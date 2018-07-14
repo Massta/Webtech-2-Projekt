@@ -2,7 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="653416c9-588d-47e0-98c6-d70b45edf998" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-business/target/example08-business-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/example08-business-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-persistence/target/example08-persistence-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-persistence/target/example08-persistence-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/basic_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/create/create_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/create/create_component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/create/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/login/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/login/login_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/login/login_component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/newest/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/newest/newest_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/basic/newest/newest_component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/create_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/jwt_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/newest/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/newest/newest_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/main.dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/main.dart.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/main.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/app_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/app_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/basic_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/basic_component.ng_placeholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/basic_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/create/create_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/create/create_component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/create/create_component.ng_placeholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/create/create_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/create/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/login/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/login/login_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/login/login_component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/login/login_component.ng_placeholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/login/login_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/newest/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/newest/newest_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/newest/newest_component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/newest/newest_component.ng_placeholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/basic/newest/newest_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/create/create_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/create/create_component.ng_placeholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/create/create_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/create/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/jwt_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/jwt_component.ng_placeholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/jwt_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/login/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/login/login_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/login/login_component.ng_placeholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/login/login_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/newest/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/newest/newest_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/newest/newest_component.ng_placeholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/jwt/newest/newest_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/create/create_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/create/create_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/login/login_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/login/login_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/newest/newest_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/newest/newest_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/session_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/session_component.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/todo/list.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/components/session/todo/list.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/model/news.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/model/news.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/model/todo.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/dart/web/packages/example08/model/todo.template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-business-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-business-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-persistence-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-persistence-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/shiro.ini" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/shiro.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/components/session/session_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/components/session/session_component.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/example08-business/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,16 +115,28 @@
         <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/StartupBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shiro.ini" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shiro.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state>
               <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session_component.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +161,7 @@
       <find>DBNews</find>
       <find>jwt</find>
       <find>news</find>
+      <find>show newest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,12 +178,12 @@
         <option value="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/example08-ds.xml" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart" />
         <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/NewsCRUD.java" />
-        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart" />
         <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/todo/list.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/todo/list.html" />
         <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/StartupBean.java" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart" />
       </list>
     </option>
   </component>
@@ -144,62 +239,6 @@
             <path>
               <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="de" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="de" type="462c0819:PsiDirectoryNode" />
-              <item name="ls5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="de" type="462c0819:PsiDirectoryNode" />
-              <item name="ls5" type="462c0819:PsiDirectoryNode" />
-              <item name="wt2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
               <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,17 +280,6 @@
               <item name="dart" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="dart" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -263,30 +291,6 @@
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="dart" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-              <item name="newest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="dart" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-              <item name="todo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -397,10 +401,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Dart Analysis" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -412,7 +417,6 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -657,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/newest/newest_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/create/create_component.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -683,24 +680,10 @@
         <state relative-caret-position="-357" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example08-persistence/src/main/java/de/ls5/wt2/DBTodo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -769,14 +752,41 @@
     <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/StartupBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state>
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/newest/newest_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
