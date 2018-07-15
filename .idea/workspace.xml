@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="653416c9-588d-47e0-98c6-d70b45edf998" name="Default" comment="[Feature] Added option to register new users">
-      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.html" afterDir="false" />
+    <list default="true" id="653416c9-588d-47e0-98c6-d70b45edf998" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/edit.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/TodoCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/TodoCRUD.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-business/target/example08-business-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/example08-business-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-business/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-persistence/target/example08-persistence-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-persistence/target/example08-persistence-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-persistence/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example08-persistence/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/example08-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-business-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-business-0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-persistence-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-persistence-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/model/todo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/model/todo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/app_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/app_component.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/components/session/todo/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/components/session/todo/list.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/components/session/todo/list.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/main.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/main.dart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/main.dart.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/main.dart.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/model/todo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/model/todo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/app_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/app_component.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/app_component.template.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/app_component.template.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/components/session/todo/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/components/session/todo/list.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/components/session/todo/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/components/session/todo/list.ng_placeholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/components/session/todo/list.template.dart" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/example08-business/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,23 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login_component.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodoCRUD.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TodoCRUD.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+            <state relative-caret-position="313">
+              <caret line="153" column="48" selection-start-line="153" selection-start-column="48" selection-end-line="153" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,14 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jwt_component.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/jwt_component.dart">
+      <file leaf-file-name="create_component.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/create_component.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newest_component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/newest/newest_component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -72,20 +78,26 @@
       <file leaf-file-name="create.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="3" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.html">
+      <file leaf-file-name="list.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -128,6 +140,8 @@
       <find>userid</find>
       <find>wichtig</find>
       <find>host</find>
+      <find>showe</find>
+      <find>model</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,7 +172,6 @@
         <option value="$PROJECT_DIR$/example08-persistence/src/main/java/de/ls5/wt2/DBUser.java" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/create_component.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/newest/newest_component.dart" />
-        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/create/create_component.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart" />
         <option value="$PROJECT_DIR$/example08-persistence/src/main/java/de/ls5/wt2/DBTodo.java" />
@@ -172,12 +185,15 @@
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/register_component.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart" />
-        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/jwt_component.dart" />
-        <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.html" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.dart" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/edit.dart" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/edit.html" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html" />
-        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.html" />
+        <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" />
       </list>
     </option>
   </component>
@@ -224,7 +240,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,57 +321,12 @@
               <item name="example08-business" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="de" type="462c0819:PsiDirectoryNode" />
-              <item name="ls5" type="462c0819:PsiDirectoryNode" />
-              <item name="wt2" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="de" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="de" type="462c0819:PsiDirectoryNode" />
-              <item name="ls5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-persistence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -493,6 +463,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -641,35 +612,43 @@
       <option name="project" value="LOCAL" />
       <updated>1531611516260</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[Feature] Added option to create new todos as admin/user">
+      <created>1531613943102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531613943102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.13539445" />
-      <window_info anchor="bottom" id="Dart Analysis" order="8" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.13539445" />
+      <window_info anchor="bottom" id="Dart Analysis" order="10" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.1764706" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32897604" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -709,16 +688,10 @@
     <MESSAGE value="[Fix] Added crudhelper to get username etc." />
     <MESSAGE value="[Fix] Finished auth stuff for now; added logout function so that sessions get terminated server-side" />
     <MESSAGE value="[Feature] Added option to register new users" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Feature] Added option to register new users" />
+    <MESSAGE value="[Feature] Added option to create new todos as admin/user" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feature] Added option to create new todos as admin/user" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/jboss-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/AuthenticationToken.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -758,10 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,10 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-          <folding>
-            <element signature="e#3694#3695#0" expanded="true" />
-            <element signature="e#3748#3749#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,9 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,26 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/create/create_component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/session_component.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,9 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,37 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/newest/newest_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/auth/RESTServiceAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="87" lean-forward="true" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/newest/newest_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="18" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,16 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="44" column="110" selection-start-line="44" selection-start-column="110" selection-end-line="44" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/CRUDHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,9 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,30 +926,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/register_component.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="16" lean-forward="true" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/create_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="37" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,47 +940,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java">
+    <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/CRUDHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+        <state relative-caret-position="459">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html">
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="391">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.dart">
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/jwt_component.dart">
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/app_component.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -1106,17 +979,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="true" selection-end-line="27" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.dart">
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/jwt_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/create_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/newest/newest_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/newest/newest_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/edit.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="153" column="48" selection-start-line="153" selection-start-column="48" selection-end-line="153" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

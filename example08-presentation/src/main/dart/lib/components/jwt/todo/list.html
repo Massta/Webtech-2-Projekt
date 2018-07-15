@@ -1,15 +1,52 @@
 <div>
     <h3>Todos zeigen</h3>
+    <!--<edit-todo class="example08block"
+                 *ngIf="showEdit()"
+                 [token]="token"
+                 [id]="getEditTodo().id"
+                 [userName]="getEditTodo().userName"
+                 [title]="getEditTodo().title"
+                 [description]="getEditTodo().description">
+
+
+    </edit-todo>-->
+    <!--Edit:
+    <form>
+        <input type="hidden" [(ngModel)]="model.id" value="{{getEditTodo().id}}"/>
+        <dl>
+            <dt>
+                <label>Titel</label>
+            </dt>
+            <dd>
+                <input [(ngModel)]="model.title" type="text" required value="{{getEditTodo().title}}"/>
+            </dd>
+            <dt>
+                <label>Beschreibung</label>
+            </dt>
+            <dd>
+                <input [(ngModel)]="model.description" type="text" required value="{{getEditTodo().description}}"/>
+            </dd>
+            <dt>
+                Wichtig: Dieses Feld kann nur von Admins benutzt werden. Falls Sie kein Admin sind, wird das Todo automatisch Ihnen zugeteilt.
+                <br/>
+                <label>Username</label>
+            </dt>
+            <dd>
+                <input [(ngModel)]="model.userName" type="text" required value="{{getEditTodo().userName}}"/>
+            </dd>
+        </dl>
+        <button type="submit" (click)="editTodo($event)">Submit</button>
+    </form>-->
     <div *ngIf="hasBeenLoaded()">
-        <div *ngFor="let todo of loaded;">
-            <dl>
-                <dt>Titel</dt>
-                <dd>{{todo.title}}</dd>
-                <dt>Beschreibung</dt>
-                <dd>{{todo.description}}</dd>
-                <dt>Username</dt>
-                <dd>{{todo.userName}}</dd>
-            </dl>
+        <div *ngFor="let todo of loaded; let i = index;">
+            <form>
+                <input type="hidden" value="{{todo.id}}" [(ngModel)]="loaded[i].id"/>
+                Titel <input type="text" value="{{todo.title}}" [(ngModel)]="loaded[i].title"><br/>
+                Beschreibung <input type="text" value="{{todo.description}}" [(ngModel)]="loaded[i].description"><br/>
+                Username <input type="text" value="{{todo.userName}}" [(ngModel)]="loaded[i].userName"><br/>
+                <button type="button" (click)="setFinished($event, todo.id)">Todo erledigt</button>
+                <button type="submit" (click)="edit($event, i)">Änderungen speichern</button>
+            </form>
         </div>
     </div>
     <div *ngIf="!hasBeenLoaded()">

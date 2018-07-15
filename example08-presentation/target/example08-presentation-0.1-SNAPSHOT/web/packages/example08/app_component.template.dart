@@ -61,18 +61,18 @@ class ViewAppComponent0 extends DebugAppView<import3.AppComponent> {
     _text_2 = new import4.Text('');
     _el_1.append(_text_2);
     dbgElm(this, _text_2, 2, 0, 10);
-    import4.Text _text_3 = new import4.Text('\n      ');
+    import4.Text _text_3 = new import4.Text('\n      Willkommen zum #minimalistischen Todo-Manager!\n      ');
     parentRenderNode.append(_text_3);
     dbgElm(this, _text_3, 3, 0, 23);
     _compView_4 = new import5.ViewJWTComponent0(this, 4);
     _el_4 = _compView_4.rootEl;
     parentRenderNode.append(_el_4);
-    dbgElm(this, _el_4, 4, 1, 6);
+    dbgElm(this, _el_4, 4, 2, 6);
     _JWTComponent_4_4 = new import1.JWTComponent();
     _compView_4.create(_JWTComponent_4_4, []);
     import4.Text _text_5 = new import4.Text('\n    ');
     parentRenderNode.append(_text_5);
-    dbgElm(this, _text_5, 5, 1, 37);
+    dbgElm(this, _text_5, 5, 2, 37);
     init(const [], const [], [_text_0, _el_1, _text_2, _text_3, _el_4, _text_5]);
     return null;
   }

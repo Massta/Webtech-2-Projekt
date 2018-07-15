@@ -6,6 +6,7 @@ import 'package:example08/components/jwt/jwt_component.dart';
     directives: const [JWTComponent],
     template: ''' 
       <h1>{{name}}</h1>
+      Willkommen zum #minimalistischen Todo-Manager!
       <jwt-component></jwt-component>
     ''')
 class AppComponent {
