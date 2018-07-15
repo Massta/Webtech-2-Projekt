@@ -17,6 +17,6 @@
         </dl>
         <button type="submit" (click)="login($event)">Login</button>
     </form>
-
+    <div>{{loginMessage}}</div>
     <button *ngIf="isLoggedIn()" type="submit" (click)="logout($event)">Logout</button>
 </div>

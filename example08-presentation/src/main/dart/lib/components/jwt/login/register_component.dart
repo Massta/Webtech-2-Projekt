@@ -10,9 +10,11 @@ import 'package:example08/model/user.dart';
     directives: formDirectives)
 class Register {
   User model;
+  String registerMessage;
 
   Register() {
     model = new User();
+    registerMessage = "";
   }
 
   void register(dynamic e) {
@@ -26,7 +28,10 @@ class Register {
         .request("../rest/jwt/user",
         method: "POST",
         sendData: model.toJSON(),
-        requestHeaders: requestHeaders)
-        .catchError((n) => print(n));
+        requestHeaders: requestHeaders).then((response) {
+          registerMessage = "Erfolgreich registriert! Jetzt einloggen.";
+          model.userName = "";
+          model.password = "";
+        }).catchError((n) => print(n));
   }
 }

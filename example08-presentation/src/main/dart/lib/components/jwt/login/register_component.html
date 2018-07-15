@@ -15,6 +15,7 @@
                 <input [(ngModel)]="model.password" type="password" required/>
             </dd>
         </dl>
+        <div>{{registerMessage}}</div>
         <button type="submit" (click)="register($event)">Registrieren</button>
     </form>
 </div>

@@ -11,11 +11,14 @@ import 'package:example08/model/todo.dart';
 class TodoCreate {
   Todo model;
 
+  String createMessage;
+
   @Input()
   String token;
 
   TodoCreate() {
     model = new Todo();
+    createMessage = "";
   }
 
   void createTodo(dynamic e) {
@@ -33,7 +36,12 @@ class TodoCreate {
         .request("../rest/jwt/todo",
         method: "POST",
         sendData: model.toJSON(),
-        requestHeaders: requestHeaders)
+        requestHeaders: requestHeaders).then((response) {
+          createMessage = "Todo erstellt. Jetzt aktualisieren!";
+          model.userName = "";
+          model.title = "";
+          model.description = "";
+        })
         .catchError((n) => print(n));
   }
 }

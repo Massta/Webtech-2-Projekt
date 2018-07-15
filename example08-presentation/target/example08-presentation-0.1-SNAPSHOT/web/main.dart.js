@@ -4697,7 +4697,7 @@
       "^": "Closure;$this",
       call$2: [function(key, value) {
         this.$this.$indexSet(0, key, value);
-      }, null, null, 4, 0, null, 32, 12, "call"],
+      }, null, null, 4, 0, null, 32, 14, "call"],
       $signature: function() {
         return H.computeSignature(function(K, V) {
           return {func: 1, args: [K, V]};
@@ -5582,7 +5582,7 @@
       }
     },
     _nullDataHandler: [function(value) {
-    }, "call$1", "async___nullDataHandler$closure", 2, 0, 83, 12],
+    }, "call$1", "async___nullDataHandler$closure", 2, 0, 83, 14],
     _nullErrorHandler: [function(error, stackTrace) {
       $.Zone__current.handleUncaughtError$2(error, stackTrace);
     }, function(error) {
@@ -5686,7 +5686,7 @@
       }
     }, "call$5", "async___rootRunUnary$closure", 10, 0, function() {
       return {func: 1, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, args: [,]},,]};
-    }, 4, 6, 5, 22, 14],
+    }, 4, 6, 5, 22, 15],
     _rootRunBinary: [function($self, $parent, zone, f, arg1, arg2) {
       var old, previous, t1;
       if (J.$eq$($.Zone__current, zone))
@@ -5819,7 +5819,7 @@
       "^": "Closure:1;bodyFunction",
       call$1: [function(result) {
         return this.bodyFunction.call$2(0, result);
-      }, null, null, 2, 0, null, 15, "call"]
+      }, null, null, 2, 0, null, 16, "call"]
     },
     _awaitOnObject_closure0: {
       "^": "Closure:16;bodyFunction",
@@ -5831,7 +5831,7 @@
       "^": "Closure:17;$protected",
       call$2: [function(errorCode, result) {
         this.$protected(errorCode, result);
-      }, null, null, 4, 0, null, 43, 15, "call"]
+      }, null, null, 4, 0, null, 43, 16, "call"]
     },
     _BroadcastStream: {
       "^": "_ControllerStream;_controller,$ti"
@@ -6054,7 +6054,7 @@
             this.result._completeWithValue$1(t3);
         } else if (t1.remaining === 0 && !this.eagerError)
           this.result._completeError$2(t1.error, t1.stackTrace);
-      }, null, null, 2, 0, null, 12, "call"],
+      }, null, null, 2, 0, null, 14, "call"],
       $signature: function() {
         return {func: 1, args: [,]};
       }
@@ -6461,7 +6461,7 @@
         var t1 = this.target;
         t1._clearPendingComplete$0();
         t1._complete$1(value);
-      }, null, null, 2, 0, null, 12, "call"]
+      }, null, null, 2, 0, null, 14, "call"]
     },
     _Future__chainForeignFuture_closure0: {
       "^": "Closure:73;target",
@@ -7727,7 +7727,7 @@
       "^": "Closure:1;$this,registered",
       call$1: [function(arg) {
         return this.$this.runUnaryGuarded$2(this.registered, arg);
-      }, null, null, 2, 0, null, 14, "call"]
+      }, null, null, 2, 0, null, 15, "call"]
     },
     _rootHandleUncaughtError_closure: {
       "^": "Closure:0;_box_0,stackTrace",
@@ -7932,7 +7932,7 @@
       "^": "Closure:1;$this,f",
       call$1: [function(arg) {
         return this.$this.runUnaryGuarded$2(this.f, arg);
-      }, null, null, 2, 0, null, 14, "call"]
+      }, null, null, 2, 0, null, 15, "call"]
     }
   }], ["dart.collection", "dart:collection",, P, {
     "^": "",
@@ -10416,13 +10416,13 @@
     },
     _callAttached: [function(receiver) {
       return J.attached$0$x(receiver);
-    }, "call$1", "html___callAttached$closure", 2, 0, 1, 16],
+    }, "call$1", "html___callAttached$closure", 2, 0, 1, 17],
     _callDetached: [function(receiver) {
       return J.detached$0$x(receiver);
-    }, "call$1", "html___callDetached$closure", 2, 0, 1, 16],
+    }, "call$1", "html___callDetached$closure", 2, 0, 1, 17],
     _callAttributeChanged: [function(receiver, $name, oldValue, newValue) {
       return J.attributeChanged$3$x(receiver, $name, oldValue, newValue);
-    }, "call$4", "html___callAttributeChanged$closure", 8, 0, 91, 16, 28, 72, 37],
+    }, "call$4", "html___callAttributeChanged$closure", 8, 0, 91, 17, 28, 72, 37],
     _wrapZone: function(callback) {
       if (J.$eq$($.Zone__current, C.C__RootZone))
         return callback;
@@ -13263,7 +13263,7 @@
         Object.defineProperty(receiver, init.dispatchPropertyName, {value: H.makeLeafDispatchRecord(this.interceptor), enumerable: false, writable: true, configurable: true});
         receiver.constructor = receiver.__proto__.constructor;
         return this.$constructor(receiver);
-      }, null, null, 2, 0, null, 16, "call"]
+      }, null, null, 2, 0, null, 17, "call"]
     },
     _DOMWindowCrossFrame: {
       "^": "Object;_window",
@@ -13548,7 +13548,7 @@
       "^": "Closure:15;object",
       call$2: [function(key, value) {
         this.object[key] = value;
-      }, null, null, 4, 0, null, 32, 12, "call"]
+      }, null, null, 4, 0, null, 32, 14, "call"]
     },
     _StructuredCloneDart2Js: {
       "^": "_StructuredClone;values,copies"
@@ -13567,13 +13567,13 @@
       "^": "Closure:1;completer",
       call$1: [function(result) {
         return this.completer.complete$1(0, result);
-      }, null, null, 2, 0, null, 15, "call"]
+      }, null, null, 2, 0, null, 16, "call"]
     },
     convertNativePromiseToDartFuture_closure0: {
       "^": "Closure:1;completer",
       call$1: [function(result) {
         return this.completer.completeError$1(result);
-      }, null, null, 2, 0, null, 15, "call"]
+      }, null, null, 2, 0, null, 16, "call"]
     },
     CssClassSetImpl: {
       "^": "Object;",
@@ -13805,7 +13805,7 @@
       dartArgs = P.List_List$from(J.map$1$ax($arguments, P.js___convertToDart$closure()), true, null);
       t1 = H.Primitives_applyFunctionWithPositionalArguments(callback, dartArgs);
       return P._convertToJS(t1);
-    }, null, null, 8, 0, null, 18, 40, 4, 29],
+    }, null, null, 8, 0, null, 19, 40, 4, 29],
     _defineProperty: function(o, $name, value) {
       var exception;
       try {
@@ -13837,7 +13837,7 @@
       if (!!t1.$isFunction)
         return P._getJsProxy(o, "$dart_jsFunction", new P._convertToJS_closure());
       return P._getJsProxy(o, "_$dart_jsObject", new P._convertToJS_closure0($.$get$_dartProxyCtor()));
-    }, "call$1", "js___convertToJS$closure", 2, 0, 1, 19],
+    }, "call$1", "js___convertToJS$closure", 2, 0, 1, 20],
     _getJsProxy: function(o, propertyName, createProxy) {
       var jsProxy = P._getOwnProperty(o, propertyName);
       if (jsProxy == null) {
@@ -13868,7 +13868,7 @@
         else
           return P._wrapToDart(o);
       }
-    }, "call$1", "js___convertToDart$closure", 2, 0, 92, 19],
+    }, "call$1", "js___convertToDart$closure", 2, 0, 92, 20],
     _wrapToDart: function(o) {
       if (typeof o == "function")
         return P._getDartProxy(o, $.$get$DART_CLOSURE_PROPERTY_NAME(), new P._wrapToDart_closure());
@@ -13901,7 +13901,7 @@
     _callDartFunctionFast: [function(callback, $arguments) {
       var t1 = H.Primitives_applyFunctionWithPositionalArguments(callback, $arguments);
       return t1;
-    }, null, null, 4, 0, null, 18, 29],
+    }, null, null, 4, 0, null, 19, 29],
     allowInterop: function(f) {
       if (typeof f == "function")
         return f;
@@ -13999,7 +13999,7 @@
           return convertedList;
         } else
           return P._convertToJS(o);
-      }, null, null, 2, 0, null, 19, "call"]
+      }, null, null, 2, 0, null, 20, "call"]
     },
     JsFunction: {
       "^": "JsObject;_js$_jsObject"
@@ -14143,7 +14143,7 @@
           return convertedList;
         } else
           return o;
-      }, null, null, 2, 0, null, 19, "call"]
+      }, null, null, 2, 0, null, 20, "call"]
     }
   }], ["dart.math", "dart:math",, P, {
     "^": "",
@@ -15058,14 +15058,14 @@
         t1._switch = p2;
         t1._ng_switch$_view = new V.SwitchView(p0, p1);
         return t1;
-      }, null, null, 6, 0, null, 0, 2, 11, "call"]
+      }, null, null, 6, 0, null, 0, 2, 12, "call"]
     },
     initReflector_closure41: {
       "^": "Closure:24;",
       call$3: [function(p0, p1, p2) {
         p2._registerView$2(C.C_Object, new V.SwitchView(p0, p1));
         return new V.NgSwitchDefault();
-      }, null, null, 6, 0, null, 0, 2, 11, "call"]
+      }, null, null, 6, 0, null, 0, 2, 12, "call"]
     }
   }], ["", "package:angular/src/common/directives/ng_template_outlet.dart",, L, {
     "^": "",
@@ -15586,7 +15586,7 @@
       "^": "Closure:50;",
       call$3: [function(p0, p1, p2) {
         return Y.ApplicationRefImpl$(p0, p1, p2);
-      }, null, null, 6, 0, null, 0, 2, 11, "call"]
+      }, null, null, 6, 0, null, 0, 2, 12, "call"]
     }
   }], ["", "package:angular/src/core/application_tokens.dart",, Y, {
     "^": "",
@@ -16591,7 +16591,7 @@
       "^": "Closure:51;",
       call$3: [function(p0, p1, p2) {
         return new Q.AppViewUtils(p0, p2, p1);
-      }, null, null, 6, 0, null, 0, 2, 11, "call"]
+      }, null, null, 6, 0, null, 0, 2, 12, "call"]
     }
   }], ["", "package:angular/src/core/linker/component_factory.dart",, D, {
     "^": "",
@@ -17171,7 +17171,7 @@
         }
       }, "call$5", "get$_runUnary", 10, 0, function() {
         return {func: 1, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, args: [,]},,]};
-      }, 4, 6, 5, 13, 14],
+      }, 4, 6, 5, 13, 15],
       _runBinary$6: [function($self, $parent, zone, fn, arg1, arg2) {
         var t1;
         try {
@@ -18113,7 +18113,7 @@
       }, "call$0", "get$isStable", 0, 0, 58],
       whenStable$1: [function(callback) {
         this._testability.whenStable$1(callback);
-      }, "call$1", "get$whenStable", 2, 0, 8, 18],
+      }, "call$1", "get$whenStable", 2, 0, 8, 19],
       findBindings$3: [function(elem, binding, exactMatch) {
         return this._testability.findBindings$3(elem, binding, exactMatch);
       }, function(elem) {
@@ -18225,7 +18225,7 @@
           testability = t1.get$current();
           testability.whenStable.apply(testability, [P.allowInterop(decrement)]);
         }
-      }, null, null, 2, 0, null, 18, "call"]
+      }, null, null, 2, 0, null, 19, "call"]
     },
     BrowserGetTestability_addToWindow__closure: {
       "^": "Closure:61;_box_0,callback",
@@ -19096,7 +19096,7 @@
         var t1 = new N.NgControlName(p0, p1, new P._AsyncBroadcastStreamController(null, null, 0, null, null, null, null, [null]), null, null, false, null, null);
         t1.valueAccessor = X.selectValueAccessor(t1, p2);
         return t1;
-      }, null, null, 6, 0, null, 0, 2, 11, "call"]
+      }, null, null, 6, 0, null, 0, 2, 12, "call"]
     }
   }], ["", "package:angular_forms/src/directives/ng_control_status.dart",, Q, {
     "^": "",
@@ -19525,7 +19525,7 @@
       "^": "Closure:75;",
       call$3: [function(p0, p1, p2) {
         return new G.RadioControlValueAccessor(p0, p1, p2, null, null, null, null, new G.closure4(), new G.closure5());
-      }, null, null, 6, 0, null, 0, 2, 11, "call"]
+      }, null, null, 6, 0, null, 0, 2, 12, "call"]
     }
   }], ["", "package:angular_forms/src/directives/select_control_value_accessor.dart",, X, {
     "^": "",
@@ -20049,7 +20049,7 @@
     Validators_required: [function(control) {
       var t1 = J.getInterceptor$x(control);
       return t1.get$value(control) == null || J.$eq$(t1.get$value(control), "") ? P.LinkedHashMap__makeLiteral(["required", true]) : null;
-    }, "call$1", "validators0_Validators_required$closure", 2, 0, 99, 17],
+    }, "call$1", "validators0_Validators_required$closure", 2, 0, 99, 18],
     Validators_minLength: function(minLength) {
       return new B.Validators_minLength_closure(minLength);
     },
@@ -20097,7 +20097,7 @@
         t1 = J.getInterceptor$asx(v);
         t2 = this.minLength;
         return J.$lt$n(t1.get$length(v), t2) ? P.LinkedHashMap__makeLiteral(["minlength", P.LinkedHashMap__makeLiteral(["requiredLength", t2, "actualLength", t1.get$length(v)])]) : null;
-      }, null, null, 2, 0, null, 17, "call"]
+      }, null, null, 2, 0, null, 18, "call"]
     },
     Validators_maxLength_closure: {
       "^": "Closure:10;maxLength",
@@ -20109,7 +20109,7 @@
         t1 = J.getInterceptor$asx(v);
         t2 = this.maxLength;
         return J.$gt$n(t1.get$length(v), t2) ? P.LinkedHashMap__makeLiteral(["maxlength", P.LinkedHashMap__makeLiteral(["requiredLength", t2, "actualLength", t1.get$length(v)])]) : null;
-      }, null, null, 2, 0, null, 17, "call"]
+      }, null, null, 2, 0, null, 18, "call"]
     },
     Validators_pattern_closure: {
       "^": "Closure:10;pattern",
@@ -20121,7 +20121,7 @@
         regex = P.RegExp_RegExp("^" + H.S(t1) + "$", true, false);
         v = J.get$value$x(control);
         return regex._nativeRegExp.test(H.checkString(v)) ? null : P.LinkedHashMap__makeLiteral(["pattern", P.LinkedHashMap__makeLiteral(["requiredPattern", "^" + H.S(t1) + "$", "actualValue", v])]);
-      }, null, null, 2, 0, null, 17, "call"]
+      }, null, null, 2, 0, null, 18, "call"]
     },
     Validators_compose_closure: {
       "^": "Closure:10;presentValidators",
@@ -20196,9 +20196,9 @@
       $.$get$_factories().$indexSet(0, C.Type_AppComponent_TyU, new V.initReflector_closure());
     },
     ViewAppComponent0: {
-      "^": "DebugAppView;_app_component_template$_el_1,_text_2,_app_component_template$_el_4,_compView_4,_JWTComponent_4_4,_expr_0,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
+      "^": "DebugAppView;_app_component_template$_el_1,_text_2,_app_component_template$_el_4,_app_component_template$_el_6,_compView_6,_JWTComponent_6_4,_expr_0,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
       build$0: function() {
-        var parentRenderNode, t1, _text_0, t2, t3, _text_3, _text_5;
+        var parentRenderNode, t1, _text_0, t2, t3, _text_3, _text_5, _text_7, t4;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
         t1 = document;
         _text_0 = t1.createTextNode("      ");
@@ -20213,28 +20213,33 @@
         _text_3 = t1.createTextNode("\n      Willkommen zum #minimalistischen Todo-Manager!\n      ");
         parentRenderNode.appendChild(_text_3);
         M.dbgElm(this, _text_3, 3, 0, 23);
-        t3 = K.ViewJWTComponent0$(this, 4);
-        this._compView_4 = t3;
-        t3 = t3.rootEl;
-        this._app_component_template$_el_4 = t3;
-        parentRenderNode.appendChild(t3);
-        M.dbgElm(this, this._app_component_template$_el_4, 4, 2, 6);
-        t3 = new N.JWTComponent(null);
-        this._JWTComponent_4_4 = t3;
-        this._compView_4.create$2(t3, []);
-        _text_5 = t1.createTextNode("\n    ");
+        this._app_component_template$_el_4 = M.createAndAppendDbg(this, t1, "br", parentRenderNode, 4, 2, 6);
+        _text_5 = t1.createTextNode("\n      ");
         parentRenderNode.appendChild(_text_5);
-        M.dbgElm(this, _text_5, 5, 2, 37);
+        M.dbgElm(this, _text_5, 5, 2, 11);
+        t3 = K.ViewJWTComponent0$(this, 6);
+        this._compView_6 = t3;
+        t3 = t3.rootEl;
+        this._app_component_template$_el_6 = t3;
+        parentRenderNode.appendChild(t3);
+        M.dbgElm(this, this._app_component_template$_el_6, 6, 3, 6);
+        t3 = new N.JWTComponent(null);
+        this._JWTComponent_6_4 = t3;
+        this._compView_6.create$2(t3, []);
+        _text_7 = t1.createTextNode("\n    ");
+        parentRenderNode.appendChild(_text_7);
+        M.dbgElm(this, _text_7, 7, 3, 37);
         t1 = this._app_component_template$_el_1;
         t3 = this._text_2;
         t2 = this._app_component_template$_el_4;
+        t4 = this._app_component_template$_el_6;
         this.super$AppView$init(C.List_empty0, C.List_empty0);
-        this.allNodes = [_text_0, t1, t3, _text_3, t2, _text_5];
+        this.allNodes = [_text_0, t1, t3, _text_3, t2, _text_5, t4, _text_7];
         return;
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
-        if (token === C.Type_JWTComponent_MIo && 4 === nodeIndex)
-          return this._JWTComponent_4_4;
+        if (token === C.Type_JWTComponent_MIo && 6 === nodeIndex)
+          return this._JWTComponent_6_4;
         return notFoundResult;
       },
       detectChangesInternal$0: function() {
@@ -20246,13 +20251,13 @@
           this._text_2.textContent = currVal_0;
           this._expr_0 = currVal_0;
         }
-        t1 = this._compView_4;
+        t1 = this._compView_6;
         t1.toString;
         $._currentDebugContext = null;
         t1.super$AppView$detectChanges();
       },
       destroyInternal$0: function() {
-        this._compView_4.destroy$0();
+        this._compView_6.destroy$0();
       },
       $asDebugAppView: function() {
         return [Q.AppComponent];
@@ -20267,7 +20272,7 @@
         var t1, t2, t3;
         t1 = P.LinkedHashMap__makeEmpty();
         t2 = $.$get$nodeDebugInfos_AppComponent0();
-        t3 = new V.ViewAppComponent0(null, null, null, null, null, null, t2, null, [], null, t1, this, null, null, null);
+        t3 = new V.ViewAppComponent0(null, null, null, null, null, null, null, t2, null, [], null, t1, this, null, null, null);
         t3.viewData = S.AppViewData_AppViewData(t3, 3, C.ViewType_1, 0, null);
         t3.DebugAppView$6(C.ViewType_1, t1, this, 0, 3, t2, Q.AppComponent);
         t1 = document.createElement("my-app");
@@ -20349,9 +20354,9 @@
       $.$get$_factories().$indexSet(0, C.Type_JWTComponent_MIo, new K.initReflector_closure0());
     },
     ViewJWTComponent0: {
-      "^": "DebugAppView;_el_1,_compView_1,_Register_1_4,_el_3,_compView_3,_Login_3_4,_jwt_component_template$_el_5,_compView_5,_TodoList_5_4,_jwt_component_template$_el_7,_compView_7,_TodoCreate_7_4,_jwt_component_template$_expr_0,_expr_1,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
+      "^": "DebugAppView;_el_1,_compView_1,_Register_1_4,_el_3,_compView_3,_Login_3_4,_jwt_component_template$_el_5,_jwt_component_template$_el_7,_compView_7,_TodoList_7_4,_jwt_component_template$_el_9,_compView_9,_TodoCreate_9_4,_jwt_component_template$_expr_0,_expr_1,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
       build$0: function() {
-        var parentRenderNode, t1, _text_0, t2, _text_2, _text_4, _text_6, _text_8, subscription_0, t3, t4;
+        var parentRenderNode, t1, _text_0, t2, _text_2, _text_4, _text_6, _text_8, _text_10, subscription_0, t3, t4, t5;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
         t1 = document;
         _text_0 = t1.createTextNode("      ");
@@ -20364,8 +20369,9 @@
         parentRenderNode.appendChild(t2);
         M.dbgElm(this, this._el_1, 1, 0, 6);
         this._el_1.className = "example08block";
-        t2 = new D.Register(null);
+        t2 = new D.Register(null, null);
         t2.model = new N.User(null, null, null, null);
+        t2.registerMessage = "";
         this._Register_1_4 = t2;
         this._compView_1.create$2(t2, []);
         _text_2 = t1.createTextNode("\n      ");
@@ -20378,47 +20384,53 @@
         parentRenderNode.appendChild(t2);
         M.dbgElm(this, this._el_3, 3, 1, 6);
         this._el_3.className = "example08block";
-        t2 = new D.Login(new P._AsyncStreamController(null, 0, null, null, null, null, null, [P.String]), null, null, null);
+        t2 = new D.Login(new P._AsyncStreamController(null, 0, null, null, null, null, null, [P.String]), null, null, "", null);
         this._Login_3_4 = t2;
         this._compView_3.create$2(t2, []);
         _text_4 = t1.createTextNode("\n      ");
         parentRenderNode.appendChild(_text_4);
         M.dbgElm(this, _text_4, 4, 1, 73);
-        t2 = B.ViewTodoList0$(this, 5);
-        this._compView_5 = t2;
-        t2 = t2.rootEl;
-        this._jwt_component_template$_el_5 = t2;
-        parentRenderNode.appendChild(t2);
-        M.dbgElm(this, this._jwt_component_template$_el_5, 5, 2, 6);
-        this._jwt_component_template$_el_5.className = "example08block";
-        t2 = D.TodoList$();
-        this._TodoList_5_4 = t2;
-        this._compView_5.create$2(t2, []);
+        this._jwt_component_template$_el_5 = M.createAndAppendDbg(this, t1, "hr", parentRenderNode, 5, 2, 6);
         _text_6 = t1.createTextNode("\n      ");
         parentRenderNode.appendChild(_text_6);
-        M.dbgElm(this, _text_6, 6, 2, 70);
-        t2 = S.ViewTodoCreate0$(this, 7);
+        M.dbgElm(this, _text_6, 6, 2, 11);
+        t2 = B.ViewTodoList0$(this, 7);
         this._compView_7 = t2;
         t2 = t2.rootEl;
         this._jwt_component_template$_el_7 = t2;
         parentRenderNode.appendChild(t2);
         M.dbgElm(this, this._jwt_component_template$_el_7, 7, 3, 6);
         this._jwt_component_template$_el_7.className = "example08block";
-        t2 = new F.TodoCreate(null, null);
-        t2.model = new N.Todo(null, null, null, null);
-        this._TodoCreate_7_4 = t2;
+        t2 = D.TodoList$();
+        this._TodoList_7_4 = t2;
         this._compView_7.create$2(t2, []);
-        _text_8 = t1.createTextNode("\n    ");
+        _text_8 = t1.createTextNode("\n      ");
         parentRenderNode.appendChild(_text_8);
-        M.dbgElm(this, _text_8, 8, 3, 72);
+        M.dbgElm(this, _text_8, 8, 3, 70);
+        t2 = S.ViewTodoCreate0$(this, 9);
+        this._compView_9 = t2;
+        t2 = t2.rootEl;
+        this._jwt_component_template$_el_9 = t2;
+        parentRenderNode.appendChild(t2);
+        M.dbgElm(this, this._jwt_component_template$_el_9, 9, 4, 6);
+        this._jwt_component_template$_el_9.className = "example08block";
+        t2 = new F.TodoCreate(null, null, null);
+        t2.model = new N.Todo(null, null, null, null);
+        t2.createMessage = "";
+        this._TodoCreate_9_4 = t2;
+        this._compView_9.create$2(t2, []);
+        _text_10 = t1.createTextNode("\n    ");
+        parentRenderNode.appendChild(_text_10);
+        M.dbgElm(this, _text_10, 10, 4, 72);
         t1 = this._Login_3_4._tokenOutput;
         subscription_0 = new P._ControllerStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$1(this.get$_handle_tokenOutput_3_0()));
         t1 = this._el_1;
         t2 = this._el_3;
         t3 = this._jwt_component_template$_el_5;
         t4 = this._jwt_component_template$_el_7;
+        t5 = this._jwt_component_template$_el_9;
         this.super$AppView$init(C.List_empty0, [subscription_0]);
-        this.allNodes = [_text_0, t1, _text_2, t2, _text_4, t3, _text_6, t4, _text_8];
+        this.allNodes = [_text_0, t1, _text_2, t2, _text_4, t3, _text_6, t4, _text_8, t5, _text_10];
         return;
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
@@ -20426,26 +20438,26 @@
           return this._Register_1_4;
         if (token === C.Type_Login_Dfi && 3 === nodeIndex)
           return this._Login_3_4;
-        if (token === C.Type_TodoList_a7j && 5 === nodeIndex)
-          return this._TodoList_5_4;
-        if (token === C.Type_TodoCreate_wy5 && 7 === nodeIndex)
-          return this._TodoCreate_7_4;
+        if (token === C.Type_TodoList_a7j && 7 === nodeIndex)
+          return this._TodoList_7_4;
+        if (token === C.Type_TodoCreate_wy5 && 9 === nodeIndex)
+          return this._TodoCreate_9_4;
         return notFoundResult;
       },
       detectChangesInternal$0: function() {
         var _ctx, t1, currVal_0, currVal_1;
         _ctx = this.ctx;
         t1 = [null];
-        $._currentDebugContext = new Z.DebugContext(this, 5, 2, 41, t1);
+        $._currentDebugContext = new Z.DebugContext(this, 7, 3, 41, t1);
         currVal_0 = _ctx.get$token();
         if (Q.checkBinding(this._jwt_component_template$_expr_0, currVal_0)) {
-          this._TodoList_5_4.token = currVal_0;
+          this._TodoList_7_4.token = currVal_0;
           this._jwt_component_template$_expr_0 = currVal_0;
         }
-        $._currentDebugContext = new Z.DebugContext(this, 7, 3, 42, t1);
+        $._currentDebugContext = new Z.DebugContext(this, 9, 4, 42, t1);
         currVal_1 = _ctx.get$token();
         if (Q.checkBinding(this._expr_1, currVal_1)) {
-          this._TodoCreate_7_4.token = currVal_1;
+          this._TodoCreate_9_4.token = currVal_1;
           this._expr_1 = currVal_1;
         }
         t1 = this._compView_1;
@@ -20456,11 +20468,11 @@
         t1.toString;
         $._currentDebugContext = null;
         t1.super$AppView$detectChanges();
-        t1 = this._compView_5;
+        t1 = this._compView_7;
         t1.toString;
         $._currentDebugContext = null;
         t1.super$AppView$detectChanges();
-        t1 = this._compView_7;
+        t1 = this._compView_9;
         t1.toString;
         $._currentDebugContext = null;
         t1.super$AppView$detectChanges();
@@ -20468,8 +20480,8 @@
       destroyInternal$0: function() {
         this._compView_1.destroy$0();
         this._compView_3.destroy$0();
-        this._compView_5.destroy$0();
         this._compView_7.destroy$0();
+        this._compView_9.destroy$0();
       },
       _handle_tokenOutput_3_0$1: [function($$event) {
         $._currentDebugContext = new Z.DebugContext(this, 3, 1, 36, [null]);
@@ -20496,7 +20508,7 @@
           var t1, t2, t3;
           t1 = P.LinkedHashMap__makeEmpty();
           t2 = $.$get$nodeDebugInfos_JWTComponent0();
-          t3 = new K.ViewJWTComponent0(null, null, null, null, null, null, null, null, null, null, null, null, null, null, t2, null, [], null, t1, parentView, null, null, null);
+          t3 = new K.ViewJWTComponent0(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, t2, null, [], null, t1, parentView, null, null, null);
           t3.viewData = S.AppViewData_AppViewData(t3, 3, C.ViewType_1, parentIndex, null);
           t3.DebugAppView$6(C.ViewType_1, t1, parentView, parentIndex, 3, t2, N.JWTComponent);
           t3.ViewJWTComponent0$2(parentView, parentIndex);
@@ -20546,7 +20558,7 @@
   }], ["", "package:example08/components/jwt/login/login_component.dart",, D, {
     "^": "",
     Login: {
-      "^": "Object;_tokenOutput,password*,username*,loggedIn",
+      "^": "Object;_tokenOutput,password*,username*,loginMessage<,loggedIn",
       isLoggedIn$0: function() {
         return this.loggedIn;
       },
@@ -20558,6 +20570,7 @@
         var t1, t2;
         J.preventDefault$0$x(e);
         this.loggedIn = false;
+        this.loginMessage = "";
         t1 = this._tokenOutput;
         if (t1._state >= 4)
           H.throwExpression(t1._badEventState$0());
@@ -20572,19 +20585,20 @@
     Login_login_closure: {
       "^": "Closure:1;$this",
       call$1: [function(response) {
-        var t1, t2, t3;
+        var t1, t2, t3, t4;
         t1 = this.$this;
         t1.loggedIn = true;
-        t1 = t1._tokenOutput;
-        t2 = J.get$responseText$x(response);
-        if (t1._state >= 4)
-          H.throwExpression(t1._badEventState$0());
-        t3 = t1._state;
-        if ((t3 & 1) !== 0)
-          t1._sendData$1(t2);
-        else if ((t3 & 3) === 0)
-          t1._ensurePendingEvents$0().add$1(0, new P._DelayedData(t2, null, [H.getTypeArgumentByIndex(t1, 0)]));
-      }, null, null, 2, 0, null, 20, "call"]
+        t2 = t1._tokenOutput;
+        t3 = J.get$responseText$x(response);
+        if (t2._state >= 4)
+          H.throwExpression(t2._badEventState$0());
+        t4 = t2._state;
+        if ((t4 & 1) !== 0)
+          t2._sendData$1(t3);
+        else if ((t4 & 3) === 0)
+          t2._ensurePendingEvents$0().add$1(0, new P._DelayedData(t3, null, [H.getTypeArgumentByIndex(t2, 0)]));
+        t1.loginMessage = C.JSString_methods.$add("Eingeloggt als ", t1.username) + ".";
+      }, null, null, 2, 0, null, 11, "call"]
     },
     Login_login_closure0: {
       "^": "Closure:1;",
@@ -20597,7 +20611,7 @@
       call$1: [function(response) {
         P.print(response);
         this.$this.loggedIn = false;
-      }, null, null, 2, 0, null, 20, "call"]
+      }, null, null, 2, 0, null, 11, "call"]
     },
     Login_logout_closure0: {
       "^": "Closure:1;",
@@ -20653,9 +20667,9 @@
       $.$get$_factories().$indexSet(0, C.Type_Login_Dfi, new B.initReflector_closure23());
     },
     ViewLogin0: {
-      "^": "DebugAppView;_el_0,_el_2,_appEl_5,_NgIf_5_7,_appEl_7,_NgIf_7_7,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
+      "^": "DebugAppView;_el_0,_el_2,_appEl_5,_NgIf_5_7,_el_7,_text_8,_appEl_10,_NgIf_10_7,_login_component_template$_expr_1,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
       build$0: function() {
-        var parentRenderNode, doc, t1, _text_1, _text_3, _text_4, _anchor_5, t2, _text_6, _anchor_7, _text_8;
+        var parentRenderNode, doc, t1, _text_1, _text_3, _text_4, _anchor_5, t2, _text_6, t3, _text_9, _anchor_10, _text_11, t4;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
         doc = document;
         t1 = M.createAndAppendDbg(this, doc, "div", parentRenderNode, 0, 0, 0);
@@ -20678,38 +20692,55 @@
         t2 = new V.ViewContainer(5, 0, this, _anchor_5, null, null, null);
         this._appEl_5 = t2;
         this._NgIf_5_7 = new K.NgIf(new D.TemplateRef(t2, B.login_component_template__viewFactory_Login1$closure()), t2, false);
-        _text_6 = doc.createTextNode("\n\n    ");
+        _text_6 = doc.createTextNode("\n    ");
         this._el_0.appendChild(_text_6);
         M.dbgElm(this, _text_6, 6, 18, 11);
-        _anchor_7 = t1.cloneNode(false);
-        this._el_0.appendChild(_anchor_7);
-        M.dbgElm(this, _anchor_7, 7, 20, 4);
-        t1 = new V.ViewContainer(7, 0, this, _anchor_7, null, null, null);
-        this._appEl_7 = t1;
-        this._NgIf_7_7 = new K.NgIf(new D.TemplateRef(t1, B.login_component_template__viewFactory_Login2$closure()), t1, false);
-        _text_8 = doc.createTextNode("\n");
-        this._el_0.appendChild(_text_8);
-        M.dbgElm(this, _text_8, 8, 20, 87);
+        t2 = M.createAndAppendDbg(this, doc, "div", this._el_0, 7, 19, 4);
+        this._el_7 = t2;
+        t3 = doc.createTextNode("");
+        this._text_8 = t3;
+        t2.appendChild(t3);
+        M.dbgElm(this, this._text_8, 8, 19, 9);
+        _text_9 = doc.createTextNode("\n    ");
+        this._el_0.appendChild(_text_9);
+        M.dbgElm(this, _text_9, 9, 19, 31);
+        _anchor_10 = t1.cloneNode(false);
+        this._el_0.appendChild(_anchor_10);
+        M.dbgElm(this, _anchor_10, 10, 20, 4);
+        t1 = new V.ViewContainer(10, 0, this, _anchor_10, null, null, null);
+        this._appEl_10 = t1;
+        this._NgIf_10_7 = new K.NgIf(new D.TemplateRef(t1, B.login_component_template__viewFactory_Login2$closure()), t1, false);
+        _text_11 = doc.createTextNode("\n");
+        this._el_0.appendChild(_text_11);
+        M.dbgElm(this, _text_11, 11, 20, 87);
         t1 = this._el_0;
-        t2 = this._el_2;
+        t3 = this._el_2;
+        t2 = this._el_7;
+        t4 = this._text_8;
         this.super$AppView$init(C.List_empty0, C.List_empty0);
-        this.allNodes = [t1, _text_1, t2, _text_3, _text_4, _anchor_5, _text_6, _anchor_7, _text_8];
+        this.allNodes = [t1, _text_1, t3, _text_3, _text_4, _anchor_5, _text_6, t2, t4, _text_9, _anchor_10, _text_11];
         return;
       },
       detectChangesInternal$0: function() {
-        var _ctx, t1;
+        var _ctx, t1, currVal_1;
         _ctx = this.ctx;
         t1 = [null];
         $._currentDebugContext = new Z.DebugContext(this, 5, 2, 10, t1);
         this._NgIf_5_7.set$ngIf(_ctx.isLoggedIn$0() !== true);
-        $._currentDebugContext = new Z.DebugContext(this, 7, 20, 12, t1);
-        this._NgIf_7_7.set$ngIf(_ctx.isLoggedIn$0());
+        $._currentDebugContext = new Z.DebugContext(this, 10, 20, 12, t1);
+        this._NgIf_10_7.set$ngIf(_ctx.isLoggedIn$0());
         this._appEl_5.detectChangesInNestedViews$0();
-        this._appEl_7.detectChangesInNestedViews$0();
+        this._appEl_10.detectChangesInNestedViews$0();
+        $._currentDebugContext = new Z.DebugContext(this, 8, 19, 9, t1);
+        currVal_1 = _ctx.get$loginMessage();
+        if (Q.checkBinding(this._login_component_template$_expr_1, currVal_1)) {
+          this._text_8.textContent = currVal_1;
+          this._login_component_template$_expr_1 = currVal_1;
+        }
       },
       destroyInternal$0: function() {
         this._appEl_5.destroyNestedViews$0();
-        this._appEl_7.destroyNestedViews$0();
+        this._appEl_10.destroyNestedViews$0();
       },
       ViewLogin0$2: function(parentView, parentIndex) {
         var t1 = document.createElement("login");
@@ -20732,7 +20763,7 @@
           var t1, t2, t3;
           t1 = P.LinkedHashMap__makeEmpty();
           t2 = $.$get$nodeDebugInfos_Login0();
-          t3 = new B.ViewLogin0(null, null, null, null, null, null, t2, null, [], null, t1, parentView, null, null, null);
+          t3 = new B.ViewLogin0(null, null, null, null, null, null, null, null, null, t2, null, [], null, t1, parentView, null, null, null);
           t3.viewData = S.AppViewData_AppViewData(t3, 3, C.ViewType_1, parentIndex, null);
           t3.DebugAppView$6(C.ViewType_1, t1, parentView, parentIndex, 3, t2, D.Login);
           t3.ViewLogin0$2(parentView, parentIndex);
@@ -21027,7 +21058,7 @@
         t1 = t1.rootEl;
         this.rootEl = t1;
         this.dbgIdx$2(t1, 0);
-        t1 = new D.Login(new P._AsyncStreamController(null, 0, null, null, null, null, null, [P.String]), null, null, null);
+        t1 = new D.Login(new P._AsyncStreamController(null, 0, null, null, null, null, null, [P.String]), null, null, "", null);
         this._Login_0_4 = t1;
         this._compView_0.create$2(t1, this.viewData.projectableNodes);
         t1 = this.rootEl;
@@ -21055,19 +21086,29 @@
     initReflector_closure23: {
       "^": "Closure:0;",
       call$0: [function() {
-        return new D.Login(new P._AsyncStreamController(null, 0, null, null, null, null, null, [P.String]), null, null, null);
+        return new D.Login(new P._AsyncStreamController(null, 0, null, null, null, null, null, [P.String]), null, null, "", null);
       }, null, null, 0, 0, null, "call"]
     }
   }], ["", "package:example08/components/jwt/login/register_component.dart",, D, {
     "^": "",
     Register: {
-      "^": "Object;model<",
+      "^": "Object;model<,registerMessage<",
       register$1: [function(_, e) {
         J.preventDefault$0$x(e);
-        W.HttpRequest_request("../rest/jwt/user", "POST", null, null, P.LinkedHashMap__makeLiteral(["Content-Type", "application/json", "Accept", "application/json"]), null, this.model.toJSON$0(), null).catchError$1(new D.Register_register_closure());
+        W.HttpRequest_request("../rest/jwt/user", "POST", null, null, P.LinkedHashMap__makeLiteral(["Content-Type", "application/json", "Accept", "application/json"]), null, this.model.toJSON$0(), null).then$1(new D.Register_register_closure(this)).catchError$1(new D.Register_register_closure0());
       }, "call$1", "get$register", 2, 0, 2]
     },
     Register_register_closure: {
+      "^": "Closure:1;$this",
+      call$1: [function(response) {
+        var t1 = this.$this;
+        t1.registerMessage = "Erfolgreich registriert! Jetzt einloggen.";
+        t1 = t1.model;
+        t1.userName = "";
+        t1.password = "";
+      }, null, null, 2, 0, null, 11, "call"]
+    },
+    Register_register_closure0: {
       "^": "Closure:1;",
       call$1: [function(n) {
         return P.print(n);
@@ -21101,9 +21142,9 @@
       $.$get$_factories().$indexSet(0, C.Type_Register_C0x, new B.initReflector_closure22());
     },
     ViewRegister0: {
-      "^": "DebugAppView;_register_component_template$_el_0,_register_component_template$_el_2,_el_5,_NgForm_5_4,_el_7,_el_9,_el_11,_register_component_template$_el_15,_register_component_template$_el_17,_const_OpaqueToken__NgValidators___17_4,_DefaultValueAccessor_17_5,_const_OpaqueToken__NgValueAccessor___17_6,_NgModel_17_7,_RequiredValidator_17_8,_el_20,_el_22,_el_26,_el_28,_const_OpaqueToken__NgValidators___28_4,_DefaultValueAccessor_28_5,_const_OpaqueToken__NgValueAccessor___28_6,_NgModel_28_7,_RequiredValidator_28_8,_el_32,_register_component_template$_expr_0,_register_component_template$_expr_1,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
+      "^": "DebugAppView;_register_component_template$_el_0,_register_component_template$_el_2,_el_5,_NgForm_5_4,_register_component_template$_el_7,_el_9,_el_11,_register_component_template$_el_15,_register_component_template$_el_17,_const_OpaqueToken__NgValidators___17_4,_DefaultValueAccessor_17_5,_const_OpaqueToken__NgValueAccessor___17_6,_NgModel_17_7,_RequiredValidator_17_8,_el_20,_el_22,_el_26,_el_28,_const_OpaqueToken__NgValidators___28_4,_DefaultValueAccessor_28_5,_const_OpaqueToken__NgValueAccessor___28_6,_NgModel_28_7,_RequiredValidator_28_8,_el_32,_text_33,_el_35,_register_component_template$_expr_0,_register_component_template$_expr_1,_register_component_template$_expr_2,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
       build$0: function() {
-        var parentRenderNode, doc, t1, _text_1, _text_3, _text_4, _text_6, _text_8, _text_10, _text_12, _text_13, _text_14, _text_16, t2, t3, t4, _text_18, _text_19, _text_21, _text_23, _text_24, _text_25, _text_27, _text_29, _text_30, _text_31, _text_33, _text_34, _text_35, subscription_0, subscription_1, t5, t6, t7, t8, t9, t10, t11, t12, t13;
+        var parentRenderNode, doc, t1, _text_1, _text_3, _text_4, _text_6, _text_8, _text_10, _text_12, _text_13, _text_14, _text_16, t2, t3, t4, _text_18, _text_19, _text_21, _text_23, _text_24, _text_25, _text_27, _text_29, _text_30, _text_31, _text_34, _text_36, _text_37, _text_38, subscription_0, subscription_1, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
         doc = document;
         t1 = M.createAndAppendDbg(this, doc, "div", parentRenderNode, 0, 0, 0);
@@ -21128,11 +21169,11 @@
         this._el_5.appendChild(_text_6);
         M.dbgElm(this, _text_6, 6, 2, 10);
         t1 = M.createAndAppendDbg(this, doc, "dl", this._el_5, 7, 3, 8);
-        this._el_7 = t1;
+        this._register_component_template$_el_7 = t1;
         _text_8 = doc.createTextNode("\n            ");
         t1.appendChild(_text_8);
         M.dbgElm(this, _text_8, 8, 3, 12);
-        t1 = M.createAndAppendDbg(this, doc, "dt", this._el_7, 9, 4, 12);
+        t1 = M.createAndAppendDbg(this, doc, "dt", this._register_component_template$_el_7, 9, 4, 12);
         this._el_9 = t1;
         _text_10 = doc.createTextNode("\n                ");
         t1.appendChild(_text_10);
@@ -21146,9 +21187,9 @@
         this._el_9.appendChild(_text_13);
         M.dbgElm(this, _text_13, 13, 5, 39);
         _text_14 = doc.createTextNode("\n            ");
-        this._el_7.appendChild(_text_14);
+        this._register_component_template$_el_7.appendChild(_text_14);
         M.dbgElm(this, _text_14, 14, 6, 17);
-        t1 = M.createAndAppendDbg(this, doc, "dd", this._el_7, 15, 7, 12);
+        t1 = M.createAndAppendDbg(this, doc, "dd", this._register_component_template$_el_7, 15, 7, 12);
         this._register_component_template$_el_15 = t1;
         _text_16 = doc.createTextNode("\n                ");
         t1.appendChild(_text_16);
@@ -21175,9 +21216,9 @@
         this._register_component_template$_el_15.appendChild(_text_18);
         M.dbgElm(this, _text_18, 18, 8, 74);
         _text_19 = doc.createTextNode("\n            ");
-        this._el_7.appendChild(_text_19);
+        this._register_component_template$_el_7.appendChild(_text_19);
         M.dbgElm(this, _text_19, 19, 9, 17);
-        t2 = M.createAndAppendDbg(this, doc, "dt", this._el_7, 20, 10, 12);
+        t2 = M.createAndAppendDbg(this, doc, "dt", this._register_component_template$_el_7, 20, 10, 12);
         this._el_20 = t2;
         _text_21 = doc.createTextNode("\n                ");
         t2.appendChild(_text_21);
@@ -21191,9 +21232,9 @@
         this._el_20.appendChild(_text_24);
         M.dbgElm(this, _text_24, 24, 11, 39);
         _text_25 = doc.createTextNode("\n            ");
-        this._el_7.appendChild(_text_25);
+        this._register_component_template$_el_7.appendChild(_text_25);
         M.dbgElm(this, _text_25, 25, 12, 17);
-        t2 = M.createAndAppendDbg(this, doc, "dd", this._el_7, 26, 13, 12);
+        t2 = M.createAndAppendDbg(this, doc, "dd", this._register_component_template$_el_7, 26, 13, 12);
         this._el_26 = t2;
         _text_27 = doc.createTextNode("\n                ");
         t2.appendChild(_text_27);
@@ -21219,27 +21260,36 @@
         this._el_26.appendChild(_text_29);
         M.dbgElm(this, _text_29, 29, 14, 78);
         _text_30 = doc.createTextNode("\n        ");
-        this._el_7.appendChild(_text_30);
+        this._register_component_template$_el_7.appendChild(_text_30);
         M.dbgElm(this, _text_30, 30, 15, 17);
         _text_31 = doc.createTextNode("\n        ");
         this._el_5.appendChild(_text_31);
         M.dbgElm(this, _text_31, 31, 16, 13);
-        t1 = M.createAndAppendDbg(this, doc, "button", this._el_5, 32, 17, 8);
+        t1 = M.createAndAppendDbg(this, doc, "div", this._el_5, 32, 17, 8);
         this._el_32 = t1;
-        t1.setAttribute("type", "submit");
-        _text_33 = doc.createTextNode("Registrieren");
-        this._el_32.appendChild(_text_33);
-        M.dbgElm(this, _text_33, 33, 17, 57);
-        _text_34 = doc.createTextNode("\n    ");
+        t2 = doc.createTextNode("");
+        this._text_33 = t2;
+        t1.appendChild(t2);
+        M.dbgElm(this, this._text_33, 33, 17, 13);
+        _text_34 = doc.createTextNode("\n        ");
         this._el_5.appendChild(_text_34);
-        M.dbgElm(this, _text_34, 34, 17, 78);
-        _text_35 = doc.createTextNode("\n");
-        this._register_component_template$_el_0.appendChild(_text_35);
-        M.dbgElm(this, _text_35, 35, 18, 11);
-        t1 = $.appViewUtils.get$eventManager();
-        t2 = this._el_5;
+        M.dbgElm(this, _text_34, 34, 17, 38);
+        t2 = M.createAndAppendDbg(this, doc, "button", this._el_5, 35, 18, 8);
+        this._el_35 = t2;
+        t2.setAttribute("type", "submit");
+        _text_36 = doc.createTextNode("Registrieren");
+        this._el_35.appendChild(_text_36);
+        M.dbgElm(this, _text_36, 36, 18, 57);
+        _text_37 = doc.createTextNode("\n    ");
+        this._el_5.appendChild(_text_37);
+        M.dbgElm(this, _text_37, 37, 18, 78);
+        _text_38 = doc.createTextNode("\n");
+        this._register_component_template$_el_0.appendChild(_text_38);
+        M.dbgElm(this, _text_38, 38, 19, 11);
+        t2 = $.appViewUtils.get$eventManager();
+        t1 = this._el_5;
         t3 = this._NgForm_5_4;
-        J.addEventListener$3$x(t1, t2, "submit", this.eventHandler1$1(t3.get$onSubmit(t3)));
+        J.addEventListener$3$x(t2, t1, "submit", this.eventHandler1$1(t3.get$onSubmit(t3)));
         J._addEventListener$3$x(this._register_component_template$_el_17, "input", this.eventHandler1$1(this.get$_handle_input_17_1()), null);
         J._addEventListener$3$x(this._register_component_template$_el_17, "blur", this.eventHandler0$1(this._DefaultValueAccessor_17_5.get$touchHandler()), null);
         t1 = this._NgModel_17_7.instance._update;
@@ -21248,11 +21298,11 @@
         J._addEventListener$3$x(this._el_28, "blur", this.eventHandler0$1(this._DefaultValueAccessor_28_5.get$touchHandler()), null);
         t1 = this._NgModel_28_7.instance._update;
         subscription_1 = new P._BroadcastStream(t1, [H.getTypeArgumentByIndex(t1, 0)]).listen$1(this.eventHandler1$1(this.get$_handle_ngModelChange_28_0()));
-        J._addEventListener$3$x(this._el_32, "click", this.eventHandler1$1(J.get$register$x(this.ctx)), null);
+        J._addEventListener$3$x(this._el_35, "click", this.eventHandler1$1(J.get$register$x(this.ctx)), null);
         t1 = this._register_component_template$_el_0;
         t2 = this._register_component_template$_el_2;
         t3 = this._el_5;
-        t4 = this._el_7;
+        t4 = this._register_component_template$_el_7;
         t5 = this._el_9;
         t6 = this._el_11;
         t7 = this._register_component_template$_el_15;
@@ -21262,8 +21312,10 @@
         t11 = this._el_26;
         t12 = this._el_28;
         t13 = this._el_32;
+        t14 = this._text_33;
+        t15 = this._el_35;
         this.super$AppView$init(C.List_empty0, [subscription_0, subscription_1]);
-        this.allNodes = [t1, _text_1, t2, _text_3, _text_4, t3, _text_6, t4, _text_8, t5, _text_10, t6, _text_12, _text_13, _text_14, t7, _text_16, t8, _text_18, _text_19, t9, _text_21, t10, _text_23, _text_24, _text_25, t11, _text_27, t12, _text_29, _text_30, _text_31, t13, _text_33, _text_34, _text_35];
+        this.allNodes = [t1, _text_1, t2, _text_3, _text_4, t3, _text_6, t4, _text_8, t5, _text_10, t6, _text_12, _text_13, _text_14, t7, _text_16, t8, _text_18, _text_19, t9, _text_21, t10, _text_23, _text_24, _text_25, t11, _text_27, t12, _text_29, _text_30, _text_31, t13, t14, _text_34, t15, _text_36, _text_37, _text_38];
         return;
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
@@ -21293,12 +21345,12 @@
           return this._NgModel_28_7.instance;
         if (t5 && 28 === nodeIndex)
           return this._RequiredValidator_28_8;
-        if ((token === C.Type_NgForm_jSl || token === C.Type_ControlContainer_chs) && 5 <= nodeIndex && nodeIndex <= 34)
+        if ((token === C.Type_NgForm_jSl || token === C.Type_ControlContainer_chs) && 5 <= nodeIndex && nodeIndex <= 37)
           return this._NgForm_5_4;
         return notFoundResult;
       },
       detectChangesInternal$0: function() {
-        var _ctx, firstCheck, t1, currVal_0, changes, t2, t3, currVal_1;
+        var _ctx, firstCheck, t1, currVal_0, changes, t2, t3, currVal_1, currVal_2;
         _ctx = this.ctx;
         firstCheck = this.viewData._cdState === 0;
         t1 = [null];
@@ -21331,10 +21383,16 @@
         if (changes != null)
           this._NgModel_28_7.instance.ngOnChanges$1(changes);
         if (firstCheck && !$.AppViewUtils_throwOnChanges) {
-          t1 = this._NgModel_28_7.instance;
-          t2 = t1._control;
-          X.setUpControl(t2, t1);
-          t2.updateValueAndValidity$1$emitEvent(false);
+          t2 = this._NgModel_28_7.instance;
+          t3 = t2._control;
+          X.setUpControl(t3, t2);
+          t3.updateValueAndValidity$1$emitEvent(false);
+        }
+        $._currentDebugContext = new Z.DebugContext(this, 33, 17, 13, t1);
+        currVal_2 = _ctx.get$registerMessage();
+        if (Q.checkBinding(this._register_component_template$_expr_2, currVal_2)) {
+          this._text_33.textContent = currVal_2;
+          this._register_component_template$_expr_2 = currVal_2;
         }
       },
       _handle_ngModelChange_17_0$1: [function($$event) {
@@ -21380,7 +21438,7 @@
           var t1, t2, t3;
           t1 = P.LinkedHashMap__makeEmpty();
           t2 = $.$get$nodeDebugInfos_Register0();
-          t3 = new B.ViewRegister0(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, t2, null, [], null, t1, parentView, null, null, null);
+          t3 = new B.ViewRegister0(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, t2, null, [], null, t1, parentView, null, null, null);
           t3.viewData = S.AppViewData_AppViewData(t3, 3, C.ViewType_1, parentIndex, null);
           t3.DebugAppView$6(C.ViewType_1, t1, parentView, parentIndex, 3, t2, D.Register);
           t3.ViewRegister0$2(parentView, parentIndex);
@@ -21396,8 +21454,9 @@
         t1 = t1.rootEl;
         this.rootEl = t1;
         this.dbgIdx$2(t1, 0);
-        t1 = new D.Register(null);
+        t1 = new D.Register(null, null);
         t1.model = new N.User(null, null, null, null);
+        t1.registerMessage = "";
         this._Register_0_4 = t1;
         this._register_component_template$_compView_0.create$2(t1, this.viewData.projectableNodes);
         t1 = this.rootEl;
@@ -21425,15 +21484,16 @@
     initReflector_closure22: {
       "^": "Closure:0;",
       call$0: [function() {
-        var t1 = new D.Register(null);
+        var t1 = new D.Register(null, null);
         t1.model = new N.User(null, null, null, null);
+        t1.registerMessage = "";
         return t1;
       }, null, null, 0, 0, null, "call"]
     }
   }], ["", "package:example08/components/jwt/todo/create.dart",, F, {
     "^": "",
     TodoCreate: {
-      "^": "Object;model<,token@",
+      "^": "Object;model<,createMessage<,token@",
       createTodo$1: [function(e) {
         var requestHeaders, t1;
         J.preventDefault$0$x(e);
@@ -21441,10 +21501,21 @@
         t1 = this.token;
         if (t1 != null)
           requestHeaders.$indexSet(0, "Authorization", C.JSString_methods.$add("Bearer ", t1));
-        W.HttpRequest_request("../rest/jwt/todo", "POST", null, null, requestHeaders, null, this.model.toJSON$0(), null).catchError$1(new F.TodoCreate_createTodo_closure());
+        W.HttpRequest_request("../rest/jwt/todo", "POST", null, null, requestHeaders, null, this.model.toJSON$0(), null).then$1(new F.TodoCreate_createTodo_closure(this)).catchError$1(new F.TodoCreate_createTodo_closure0());
       }, "call$1", "get$createTodo", 2, 0, 2]
     },
     TodoCreate_createTodo_closure: {
+      "^": "Closure:1;$this",
+      call$1: [function(response) {
+        var t1 = this.$this;
+        t1.createMessage = "Todo erstellt. Jetzt aktualisieren!";
+        t1 = t1.model;
+        t1.userName = "";
+        t1.title = "";
+        t1.description = "";
+      }, null, null, 2, 0, null, 11, "call"]
+    },
+    TodoCreate_createTodo_closure0: {
       "^": "Closure:1;",
       call$1: [function(n) {
         return P.print(n);
@@ -21478,9 +21549,9 @@
       $.$get$_factories().$indexSet(0, C.Type_TodoCreate_wy5, new S.initReflector_closure21());
     },
     ViewTodoCreate0: {
-      "^": "DebugAppView;_create_template$_el_0,_create_template$_el_2,_create_template$_el_5,_create_template$_NgForm_5_4,_create_template$_el_7,_create_template$_el_9,_create_template$_el_11,_create_template$_el_15,_create_template$_el_17,_create_template$_const_OpaqueToken__NgValidators___17_4,_create_template$_DefaultValueAccessor_17_5,_create_template$_const_OpaqueToken__NgValueAccessor___17_6,_create_template$_NgModel_17_7,_create_template$_RequiredValidator_17_8,_create_template$_el_20,_create_template$_el_22,_create_template$_el_26,_create_template$_el_28,_create_template$_const_OpaqueToken__NgValidators___28_4,_create_template$_DefaultValueAccessor_28_5,_create_template$_const_OpaqueToken__NgValueAccessor___28_6,_create_template$_NgModel_28_7,_create_template$_RequiredValidator_28_8,_el_31,_el_33,_el_35,_el_39,_el_41,_const_OpaqueToken__NgValidators___41_4,_DefaultValueAccessor_41_5,_const_OpaqueToken__NgValueAccessor___41_6,_NgModel_41_7,_RequiredValidator_41_8,_el_45,_create_template$_expr_0,_create_template$_expr_1,_create_template$_expr_2,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
+      "^": "DebugAppView;_create_template$_el_0,_create_template$_el_2,_create_template$_el_5,_create_template$_NgForm_5_4,_create_template$_el_7,_create_template$_el_9,_create_template$_el_11,_create_template$_el_15,_create_template$_el_17,_create_template$_const_OpaqueToken__NgValidators___17_4,_create_template$_DefaultValueAccessor_17_5,_create_template$_const_OpaqueToken__NgValueAccessor___17_6,_create_template$_NgModel_17_7,_create_template$_RequiredValidator_17_8,_create_template$_el_20,_create_template$_el_22,_create_template$_el_26,_create_template$_el_28,_create_template$_const_OpaqueToken__NgValidators___28_4,_create_template$_DefaultValueAccessor_28_5,_create_template$_const_OpaqueToken__NgValueAccessor___28_6,_create_template$_NgModel_28_7,_create_template$_RequiredValidator_28_8,_el_31,_el_33,_create_template$_el_35,_el_39,_el_41,_const_OpaqueToken__NgValidators___41_4,_DefaultValueAccessor_41_5,_const_OpaqueToken__NgValueAccessor___41_6,_NgModel_41_7,_RequiredValidator_41_8,_el_45,_el_49,_text_50,_create_template$_expr_0,_create_template$_expr_1,_create_template$_expr_2,_create_template$_expr_3,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
       build$0: function() {
-        var parentRenderNode, doc, t1, _text_1, _text_3, _text_4, _text_6, _text_8, _text_10, _text_12, _text_13, _text_14, _text_16, t2, t3, t4, _text_18, _text_19, _text_21, _text_23, _text_24, _text_25, _text_27, _text_29, _text_30, _text_32, _text_34, _text_36, _text_37, _text_38, _text_40, _text_42, _text_43, _text_44, _text_46, _text_47, _text_48, subscription_0, subscription_1, subscription_2, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18;
+        var parentRenderNode, doc, t1, _text_1, _text_3, _text_4, _text_6, _text_8, _text_10, _text_12, _text_13, _text_14, _text_16, t2, t3, t4, _text_18, _text_19, _text_21, _text_23, _text_24, _text_25, _text_27, _text_29, _text_30, _text_32, _text_34, _text_36, _text_37, _text_38, _text_40, _text_42, _text_43, _text_44, _text_46, _text_47, _text_48, _text_51, subscription_0, subscription_1, subscription_2, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
         doc = document;
         t1 = M.createAndAppendDbg(this, doc, "div", parentRenderNode, 0, 0, 0);
@@ -21608,7 +21679,7 @@
         this._el_31.appendChild(_text_34);
         M.dbgElm(this, _text_34, 34, 18, 21);
         t1 = M.createAndAppendDbg(this, doc, "label", this._el_31, 35, 19, 16);
-        this._el_35 = t1;
+        this._create_template$_el_35 = t1;
         _text_36 = doc.createTextNode("Username");
         t1.appendChild(_text_36);
         M.dbgElm(this, _text_36, 36, 19, 23);
@@ -21658,13 +21729,22 @@
         _text_47 = doc.createTextNode("\n    ");
         this._create_template$_el_5.appendChild(_text_47);
         M.dbgElm(this, _text_47, 47, 25, 74);
-        _text_48 = doc.createTextNode("\n");
+        _text_48 = doc.createTextNode("\n    ");
         this._create_template$_el_0.appendChild(_text_48);
         M.dbgElm(this, _text_48, 48, 26, 11);
-        t2 = $.appViewUtils.get$eventManager();
-        t1 = this._create_template$_el_5;
+        t2 = M.createAndAppendDbg(this, doc, "div", this._create_template$_el_0, 49, 27, 4);
+        this._el_49 = t2;
+        t1 = doc.createTextNode("");
+        this._text_50 = t1;
+        t2.appendChild(t1);
+        M.dbgElm(this, this._text_50, 50, 27, 9);
+        _text_51 = doc.createTextNode("\n");
+        this._create_template$_el_0.appendChild(_text_51);
+        M.dbgElm(this, _text_51, 51, 27, 32);
+        t1 = $.appViewUtils.get$eventManager();
+        t2 = this._create_template$_el_5;
         t3 = this._create_template$_NgForm_5_4;
-        J.addEventListener$3$x(t2, t1, "submit", this.eventHandler1$1(t3.get$onSubmit(t3)));
+        J.addEventListener$3$x(t1, t2, "submit", this.eventHandler1$1(t3.get$onSubmit(t3)));
         J._addEventListener$3$x(this._create_template$_el_17, "input", this.eventHandler1$1(this.get$_create_template$_handle_input_17_1()), null);
         J._addEventListener$3$x(this._create_template$_el_17, "blur", this.eventHandler0$1(this._create_template$_DefaultValueAccessor_17_5.get$touchHandler()), null);
         t1 = this._create_template$_NgModel_17_7.instance._update;
@@ -21692,12 +21772,14 @@
         t12 = this._create_template$_el_28;
         t13 = this._el_31;
         t14 = this._el_33;
-        t15 = this._el_35;
+        t15 = this._create_template$_el_35;
         t16 = this._el_39;
         t17 = this._el_41;
         t18 = this._el_45;
+        t19 = this._el_49;
+        t20 = this._text_50;
         this.super$AppView$init(C.List_empty0, [subscription_0, subscription_1, subscription_2]);
-        this.allNodes = [t1, _text_1, t2, _text_3, _text_4, t3, _text_6, t4, _text_8, t5, _text_10, t6, _text_12, _text_13, _text_14, t7, _text_16, t8, _text_18, _text_19, t9, _text_21, t10, _text_23, _text_24, _text_25, t11, _text_27, t12, _text_29, _text_30, t13, _text_32, t14, _text_34, t15, _text_36, _text_37, _text_38, t16, _text_40, t17, _text_42, _text_43, _text_44, t18, _text_46, _text_47, _text_48];
+        this.allNodes = [t1, _text_1, t2, _text_3, _text_4, t3, _text_6, t4, _text_8, t5, _text_10, t6, _text_12, _text_13, _text_14, t7, _text_16, t8, _text_18, _text_19, t9, _text_21, t10, _text_23, _text_24, _text_25, t11, _text_27, t12, _text_29, _text_30, t13, _text_32, t14, _text_34, t15, _text_36, _text_37, _text_38, t16, _text_40, t17, _text_42, _text_43, _text_44, t18, _text_46, _text_47, _text_48, t19, t20, _text_51];
         return;
       },
       injectorGetInternal$3: function(token, nodeIndex, notFoundResult) {
@@ -21742,7 +21824,7 @@
         return notFoundResult;
       },
       detectChangesInternal$0: function() {
-        var _ctx, firstCheck, t1, currVal_0, changes, t2, t3, currVal_1, currVal_2;
+        var _ctx, firstCheck, t1, currVal_0, changes, t2, t3, currVal_1, currVal_2, currVal_3;
         _ctx = this.ctx;
         firstCheck = this.viewData._cdState === 0;
         t1 = [null];
@@ -21792,10 +21874,16 @@
         if (changes != null)
           this._NgModel_41_7.instance.ngOnChanges$1(changes);
         if (firstCheck && !$.AppViewUtils_throwOnChanges) {
-          t1 = this._NgModel_41_7.instance;
-          t2 = t1._control;
-          X.setUpControl(t2, t1);
-          t2.updateValueAndValidity$1$emitEvent(false);
+          t2 = this._NgModel_41_7.instance;
+          t3 = t2._control;
+          X.setUpControl(t3, t2);
+          t3.updateValueAndValidity$1$emitEvent(false);
+        }
+        $._currentDebugContext = new Z.DebugContext(this, 50, 27, 9, t1);
+        currVal_3 = _ctx.get$createMessage();
+        if (Q.checkBinding(this._create_template$_expr_3, currVal_3)) {
+          this._text_50.textContent = currVal_3;
+          this._create_template$_expr_3 = currVal_3;
         }
       },
       _create_template$_handle_ngModelChange_17_0$1: [function($$event) {
@@ -21852,7 +21940,7 @@
           var t1, t2, t3;
           t1 = P.LinkedHashMap__makeEmpty();
           t2 = $.$get$nodeDebugInfos_TodoCreate0();
-          t3 = new S.ViewTodoCreate0(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, t2, null, [], null, t1, parentView, null, null, null);
+          t3 = new S.ViewTodoCreate0(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, t2, null, [], null, t1, parentView, null, null, null);
           t3.viewData = S.AppViewData_AppViewData(t3, 3, C.ViewType_1, parentIndex, null);
           t3.DebugAppView$6(C.ViewType_1, t1, parentView, parentIndex, 3, t2, F.TodoCreate);
           t3.ViewTodoCreate0$2(parentView, parentIndex);
@@ -21868,8 +21956,9 @@
         t1 = t1.rootEl;
         this.rootEl = t1;
         this.dbgIdx$2(t1, 0);
-        t1 = new F.TodoCreate(null, null);
+        t1 = new F.TodoCreate(null, null, null);
         t1.model = new N.Todo(null, null, null, null);
+        t1.createMessage = "";
         this._TodoCreate_0_4 = t1;
         this._create_template$_compView_0.create$2(t1, this.viewData.projectableNodes);
         t1 = this.rootEl;
@@ -21897,8 +21986,9 @@
     initReflector_closure21: {
       "^": "Closure:0;",
       call$0: [function() {
-        var t1 = new F.TodoCreate(null, null);
+        var t1 = new F.TodoCreate(null, null, null);
         t1.model = new N.Todo(null, null, null, null);
+        t1.createMessage = "";
         return t1;
       }, null, null, 0, 0, null, "call"]
     }
@@ -22001,7 +22091,7 @@
       call$1: [function(response) {
         P.print(J.get$status$x(response));
         this.$this.fetchTodos$0();
-      }, null, null, 2, 0, null, 20, "call"]
+      }, null, null, 2, 0, null, 11, "call"]
     },
     TodoList_setFinished_closure0: {
       "^": "Closure:1;",
@@ -22042,7 +22132,7 @@
           t1.shouldShowEdit.$indexSet(0, todo.id, false);
           ++i;
         }
-      }, null, null, 2, 0, null, 20, "call"]
+      }, null, null, 2, 0, null, 11, "call"]
     },
     TodoList_fetchTodos_closure0: {
       "^": "Closure:1;",
@@ -22108,7 +22198,7 @@
       $.$get$_factories().$indexSet(0, C.Type_TodoList_a7j, new B.initReflector_closure1());
     },
     ViewTodoList0: {
-      "^": "DebugAppView;_list_template$_el_0,_list_template$_el_2,_list_template$_appEl_7,_list_template$_NgIf_7_7,_appEl_9,_NgIf_9_7,_list_template$_el_11,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
+      "^": "DebugAppView;_list_template$_el_0,_list_template$_el_2,_appEl_7,_NgIf_7_7,_appEl_9,_NgIf_9_7,_list_template$_el_11,staticNodeDebugInfos,allNodes,deferredLoads,viewData,locals,parentView,componentType,rootEl,ctx",
       build$0: function() {
         var parentRenderNode, doc, t1, _text_1, _text_3, _text_4, _text_5, _text_6, _anchor_7, t2, _text_8, _anchor_9, _text_10, _text_12, _text_13, t3;
         parentRenderNode = this.initViewRoot$1(this.rootEl);
@@ -22137,8 +22227,8 @@
         this._list_template$_el_0.appendChild(_anchor_7);
         M.dbgElm(this, _anchor_7, 7, 39, 4);
         t2 = new V.ViewContainer(7, 0, this, _anchor_7, null, null, null);
-        this._list_template$_appEl_7 = t2;
-        this._list_template$_NgIf_7_7 = new K.NgIf(new D.TemplateRef(t2, B.list_template__viewFactory_TodoList1$closure()), t2, false);
+        this._appEl_7 = t2;
+        this._NgIf_7_7 = new K.NgIf(new D.TemplateRef(t2, B.list_template__viewFactory_TodoList1$closure()), t2, false);
         _text_8 = doc.createTextNode("\n    ");
         this._list_template$_el_0.appendChild(_text_8);
         M.dbgElm(this, _text_8, 8, 50, 10);
@@ -22173,14 +22263,14 @@
         _ctx = this.ctx;
         t1 = [null];
         $._currentDebugContext = new Z.DebugContext(this, 7, 39, 9, t1);
-        this._list_template$_NgIf_7_7.set$ngIf(_ctx.hasBeenLoaded$0());
+        this._NgIf_7_7.set$ngIf(_ctx.hasBeenLoaded$0());
         $._currentDebugContext = new Z.DebugContext(this, 9, 51, 9, t1);
         this._NgIf_9_7.set$ngIf(!_ctx.hasBeenLoaded$0());
-        this._list_template$_appEl_7.detectChangesInNestedViews$0();
+        this._appEl_7.detectChangesInNestedViews$0();
         this._appEl_9.detectChangesInNestedViews$0();
       },
       destroyInternal$0: function() {
-        this._list_template$_appEl_7.destroyNestedViews$0();
+        this._appEl_7.destroyNestedViews$0();
         this._appEl_9.destroyNestedViews$0();
       },
       ViewTodoList0$2: function(parentView, parentIndex) {
@@ -23619,17 +23709,17 @@
   }, "modifierKeys", "modifierKeyGetters", "$get$modifierKeyGetters", function() {
     return P.LinkedHashMap__makeLiteral(["alt", new N.closure10(), "control", new N.closure11(), "meta", new N.closure12(), "shift", new N.closure13()]);
   }, "modifierKeyGetters", "nodeDebugInfos_AppComponent0", "$get$nodeDebugInfos_AppComponent0", function() {
-    return [null, null, null, null, new Z.StaticNodeDebugInfo([C.Type_JWTComponent_MIo], C.Type_JWTComponent_MIo, P.LinkedHashMap_LinkedHashMap$_empty(P.String, null)), null];
+    return [null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.Type_JWTComponent_MIo], C.Type_JWTComponent_MIo, P.LinkedHashMap_LinkedHashMap$_empty(P.String, null)), null];
   }, "nodeDebugInfos_AppComponent0", "nodeDebugInfos_AppComponentHost0", "$get$nodeDebugInfos_AppComponentHost0", function() {
     return [new Z.StaticNodeDebugInfo([C.Type_AppComponent_TyU], C.Type_AppComponent_TyU, P.LinkedHashMap_LinkedHashMap$_empty(P.String, null))];
   }, "nodeDebugInfos_AppComponentHost0", "nodeDebugInfos_JWTComponent0", "$get$nodeDebugInfos_JWTComponent0", function() {
     var t1 = P.String;
-    return [null, new Z.StaticNodeDebugInfo([C.Type_Register_C0x], C.Type_Register_C0x, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, new Z.StaticNodeDebugInfo([C.Type_Login_Dfi], C.Type_Login_Dfi, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, new Z.StaticNodeDebugInfo([C.Type_TodoList_a7j], C.Type_TodoList_a7j, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, new Z.StaticNodeDebugInfo([C.Type_TodoCreate_wy5], C.Type_TodoCreate_wy5, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null];
+    return [null, new Z.StaticNodeDebugInfo([C.Type_Register_C0x], C.Type_Register_C0x, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, new Z.StaticNodeDebugInfo([C.Type_Login_Dfi], C.Type_Login_Dfi, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, new Z.StaticNodeDebugInfo([C.Type_TodoList_a7j], C.Type_TodoList_a7j, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, new Z.StaticNodeDebugInfo([C.Type_TodoCreate_wy5], C.Type_TodoCreate_wy5, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null];
   }, "nodeDebugInfos_JWTComponent0", "nodeDebugInfos_JWTComponentHost0", "$get$nodeDebugInfos_JWTComponentHost0", function() {
     return [new Z.StaticNodeDebugInfo([C.Type_JWTComponent_MIo], C.Type_JWTComponent_MIo, P.LinkedHashMap_LinkedHashMap$_empty(P.String, null))];
   }, "nodeDebugInfos_JWTComponentHost0", "nodeDebugInfos_Login0", "$get$nodeDebugInfos_Login0", function() {
     var t1 = P.String;
-    return [null, null, null, null, null, new Z.StaticNodeDebugInfo([C.Type_TemplateRef_SSn, C.Type_NgIf_43h], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, new Z.StaticNodeDebugInfo([C.Type_TemplateRef_SSn, C.Type_NgIf_43h], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null];
+    return [null, null, null, null, null, new Z.StaticNodeDebugInfo([C.Type_TemplateRef_SSn, C.Type_NgIf_43h], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, new Z.StaticNodeDebugInfo([C.Type_TemplateRef_SSn, C.Type_NgIf_43h], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null];
   }, "nodeDebugInfos_Login0", "nodeDebugInfos_Login1", "$get$nodeDebugInfos_Login1", function() {
     var t1 = P.String;
     return [new Z.StaticNodeDebugInfo([C.Type_NgForm_jSl, C.Type_ControlContainer_chs], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null];
@@ -23639,12 +23729,12 @@
     return [new Z.StaticNodeDebugInfo([C.Type_Login_Dfi], C.Type_Login_Dfi, P.LinkedHashMap_LinkedHashMap$_empty(P.String, null))];
   }, "nodeDebugInfos_LoginHost0", "nodeDebugInfos_Register0", "$get$nodeDebugInfos_Register0", function() {
     var t1 = P.String;
-    return [null, null, null, null, null, new Z.StaticNodeDebugInfo([C.Type_NgForm_jSl, C.Type_ControlContainer_chs], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null];
+    return [null, null, null, null, null, new Z.StaticNodeDebugInfo([C.Type_NgForm_jSl, C.Type_ControlContainer_chs], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null];
   }, "nodeDebugInfos_Register0", "nodeDebugInfos_RegisterHost0", "$get$nodeDebugInfos_RegisterHost0", function() {
     return [new Z.StaticNodeDebugInfo([C.Type_Register_C0x], C.Type_Register_C0x, P.LinkedHashMap_LinkedHashMap$_empty(P.String, null))];
   }, "nodeDebugInfos_RegisterHost0", "nodeDebugInfos_TodoCreate0", "$get$nodeDebugInfos_TodoCreate0", function() {
     var t1 = P.String;
-    return [null, null, null, null, null, new Z.StaticNodeDebugInfo([C.Type_NgForm_jSl, C.Type_ControlContainer_chs], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null];
+    return [null, null, null, null, null, new Z.StaticNodeDebugInfo([C.Type_NgForm_jSl, C.Type_ControlContainer_chs], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null, null, null, new Z.StaticNodeDebugInfo([C.OpaqueToken_NgValidators, C.Type_DefaultValueAccessor_EOZ, C.OpaqueToken_NgValueAccessor, C.Type_NgModel_qx4, C.Type_RequiredValidator_Lbh, C.Type_NgControl_GNi], null, P.LinkedHashMap_LinkedHashMap$_empty(t1, null)), null, null, null, null, null, null, null, null, null, null];
   }, "nodeDebugInfos_TodoCreate0", "nodeDebugInfos_TodoCreateHost0", "$get$nodeDebugInfos_TodoCreateHost0", function() {
     return [new Z.StaticNodeDebugInfo([C.Type_TodoCreate_wy5], C.Type_TodoCreate_wy5, P.LinkedHashMap_LinkedHashMap$_empty(P.String, null))];
   }, "nodeDebugInfos_TodoCreateHost0", "nodeDebugInfos_TodoList0", "$get$nodeDebugInfos_TodoList0", function() {
@@ -23662,7 +23752,7 @@
   }, "nodeDebugInfos_TodoListHost0"]);
   Isolate = Isolate.$finishIsolateConstructor(Isolate);
   $ = new Isolate();
-  init.metadata = ["p0", "index", "p1", null, "self", "zone", "parent", "error", "_", "n", "stackTrace", "p2", "value", "fn", "arg", "result", "receiver", "control", "callback", "o", "response", "arg2", "f", "arg1", "data", "elem", "invocation", "element", "name", "arguments", "x", "e", "key", "object", "event", "findInAncestors", "zoneValues", "newValue", "specification", "closure", "captureThis", "arg3", "arg4", "errorCode", "each", "theError", "ref", "err", "theStackTrace", "isolate", "trace", "duration", "k", "injector", "token", "__", "stack", "reason", "v", "binding", "exactMatch", true, "numberOfArguments", "didWork_", "t", "dom", "keys", "hammer", "eventObj", "validator", "c", "sender", "oldValue", "item"];
+  init.metadata = ["p0", "index", "p1", null, "self", "zone", "parent", "error", "_", "n", "stackTrace", "response", "p2", "fn", "value", "arg", "result", "receiver", "control", "callback", "o", "arg2", "f", "arg1", "data", "elem", "invocation", "element", "name", "arguments", "x", "e", "key", "object", "event", "findInAncestors", "zoneValues", "newValue", "specification", "closure", "captureThis", "arg3", "arg4", "errorCode", "each", "theError", "ref", "err", "theStackTrace", "isolate", "trace", "duration", "k", "injector", "token", "__", "stack", "reason", "v", "binding", "exactMatch", true, "numberOfArguments", "didWork_", "t", "dom", "keys", "hammer", "eventObj", "validator", "c", "sender", "oldValue", "item"];
   init.types = [{func: 1}, {func: 1, args: [,]}, {func: 1, v: true, args: [,]}, {func: 1, v: true}, {func: 1, args: [,,]}, {func: 1, ret: P.String, args: [P.int]}, {func: 1, ret: S.AppView, args: [S.AppView, P.num]}, {func: 1, args: [P.String]}, {func: 1, v: true, args: [P.Function]}, {func: 1, args: [W.KeyboardEvent]}, {func: 1, args: [Z.AbstractControl]}, {func: 1, ret: [S.AppView, D.TodoList], args: [S.AppView, P.num]}, {func: 1, v: true, args: [P.Object], opt: [P.StackTrace]}, {func: 1, args: [W.HtmlElement]}, {func: 1, v: true, args: [{func: 1, v: true}]}, {func: 1, args: [P.String,,]}, {func: 1, args: [, P.StackTrace]}, {func: 1, args: [P.int,,]}, {func: 1, ret: W.Element, args: [P.int]}, {func: 1, ret: W.Node, args: [P.int]}, {func: 1, ret: W.MimeType, args: [P.int]}, {func: 1, ret: P.Future}, {func: 1, args: [W.Element]}, {func: 1, args: [R.ViewContainerRef, D.TemplateRef]}, {func: 1, args: [R.ViewContainerRef, D.TemplateRef, V.NgSwitch]}, {func: 1, args: [,], named: {rawValue: P.String}}, {func: 1, args: [P.List]}, {func: 1, args: [P.List, P.List]}, {func: 1, ret: [S.AppView, D.Login], args: [S.AppView, P.num]}, {func: 1, ret: P.Rectangle, args: [P.int]}, {func: 1, ret: W.SpeechRecognitionAlternative, args: [P.int]}, {func: 1, ret: P.Future, args: [P.String]}, {func: 1, ret: W.Touch, args: [P.int]}, {func: 1, ret: W.TrackDefault, args: [P.int]}, {func: 1, ret: W.VttRegion, args: [P.int]}, {func: 1, v: true, args: [, P.StackTrace]}, {func: 1, ret: W.CssRule, args: [P.int]}, {func: 1, ret: W.Gamepad, args: [P.int]}, {func: 1, ret: W._Attr, args: [P.int]}, {func: 1, ret: W.SpeechRecognitionResult, args: [P.int]}, {func: 1, ret: W.StyleSheet, args: [P.int]}, {func: 1, args: [P.Symbol0,,]}, {func: 1, v: true, opt: [P.Object]}, {func: 1, ret: P.Map, args: [P.int]}, {func: 1, args: [{func: 1, v: true}]}, {func: 1, args: [R.CollectionChangeRecord, P.int, P.int]}, {func: 1, ret: W.DataTransferItem, args: [P.int]}, {func: 1, ret: P.Object, opt: [P.Object]}, {func: 1, args: [R.ViewContainerRef]}, {func: 1, args: [Y.NgZoneError]}, {func: 1, args: [Y.PlatformRefImpl, Y.NgZone, M.Injector]}, {func: 1, args: [P.String, E.SanitizationService, N.EventManager]}, {func: 1, args: [M.ComponentLoader, V.ComponentResolver]}, {func: 1, args: [Y.NgZone]}, {func: 1, v: true, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1, v: true}]}, {func: 1, v: true, args: [P.Zone, P.ZoneDelegate, P.Zone,, P.StackTrace]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1}]}, {func: 1, v: true, args: [,], opt: [, P.String]}, {func: 1, ret: P.bool}, {func: 1, ret: P.List, args: [W.Element], opt: [P.String, P.bool]}, {func: 1, args: [W.Element], opt: [P.bool]}, {func: 1, args: [P.bool]}, {func: 1, args: [W.Element, P.bool]}, {func: 1, args: [P.List, Y.NgZone]}, {func: 1, args: [P.Object, P.String]}, {func: 1, args: [V.HammerGestureConfig]}, {func: 1, ret: P.String, args: [P.String]}, {func: 1, ret: W.File, args: [P.int]}, {func: 1, args: [, P.String]}, {func: 1, ret: W.HtmlDocument}, {func: 1, args: [K.ControlContainer, P.List, P.List]}, {func: 1, args: [T.NgControl]}, {func: 1, v: true, args: [W.Event]}, {func: 1, args: [,], opt: [,]}, {func: 1, v: true, args: [P.String, P.Type], named: {extendsTag: P.String}}, {func: 1, args: [W.HtmlElement, G.RadioControlRegistry, M.Injector]}, {func: 1, args: [Z.ElementRef]}, {func: 1, args: [Z.ElementRef, X.SelectControlValueAccessor]}, {func: 1, ret: Z.Control, args: [P.Object], opt: [{func: 1, ret: [P.Map, P.String,,], args: [Z.AbstractControl]}]}, {func: 1, args: [[P.Map, P.String,,], Z.AbstractControl, P.String]}, {func: 1, v: true, args: [P.int, H.RawReceivePortImpl]}, {func: 1, ret: W.Plugin, args: [P.int]}, {func: 1, ret: [P.List, W.RtcStatsReport]}, {func: 1, v: true, args: [P.Object]}, {func: 1, ret: P.AsyncError, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Object, P.StackTrace]}, {func: 1, v: true, args: [P.Zone, P.ZoneDelegate, P.Zone, {func: 1}]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, v: true}]}, {func: 1, ret: P.Timer, args: [P.Zone, P.ZoneDelegate, P.Zone, P.Duration, {func: 1, v: true, args: [P.Timer]}]}, {func: 1, v: true, args: [P.Zone, P.ZoneDelegate, P.Zone, P.String]}, {func: 1, v: true, args: [P.String]}, {func: 1, ret: P.Zone, args: [P.Zone, P.ZoneDelegate, P.Zone, P.ZoneSpecification, P.Map]}, {func: 1, args: [,,,,]}, {func: 1, ret: P.Object, args: [,]}, {func: 1, ret: Y.NgZone}, {func: 1, ret: T.DebugNode, args: [,]}, {func: 1, ret: P.Null, args: [M.Injector, P.Object]}, {func: 1, ret: P.Null, args: [,,]}, {func: 1, ret: [P.List, N.EventManagerPlugin], args: [L.DomEventsPlugin, N.KeyEventsPlugin, V.HammerGesturesPlugin]}, {func: 1, ret: {func: 1, ret: [P.Map, P.String,,], args: [Z.AbstractControl]}, args: [,]}, {func: 1, ret: [P.Map, P.String, P.bool], args: [Z.AbstractControl]}, {func: 1, ret: P.Future, args: [P.String], opt: [P.Map]}, {func: 1, ret: W.SourceBuffer, args: [P.int]}, {func: 1, ret: W.SpeechGrammar, args: [P.int]}, {func: 1, ret: P.String}, {func: 1, args: [K.ControlContainer, P.List]}];
   function convertToFastObject(properties) {
     function MyClass() {

@@ -33,6 +33,8 @@ List<StaticNodeDebugInfo> nodeDebugInfos_AppComponent0 = [
   null,
   null,
   null,
+  null,
+  null,
   new StaticNodeDebugInfo([import1.JWTComponent], import1.JWTComponent, <String, dynamic>{}),
   null
 ];
@@ -41,8 +43,9 @@ class ViewAppComponent0 extends DebugAppView<import3.AppComponent> {
   import4.Element _el_1;
   import4.Text _text_2;
   import4.Element _el_4;
-  import5.ViewJWTComponent0 _compView_4;
-  import1.JWTComponent _JWTComponent_4_4;
+  import4.Element _el_6;
+  import5.ViewJWTComponent0 _compView_6;
+  import1.JWTComponent _JWTComponent_6_4;
   var _expr_0;
   static RenderComponentType _renderType;
   ViewAppComponent0(AppView<dynamic> parentView, num parentIndex) : super(import8.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways, nodeDebugInfos_AppComponent0) {
@@ -64,23 +67,27 @@ class ViewAppComponent0 extends DebugAppView<import3.AppComponent> {
     import4.Text _text_3 = new import4.Text('\n      Willkommen zum #minimalistischen Todo-Manager!\n      ');
     parentRenderNode.append(_text_3);
     dbgElm(this, _text_3, 3, 0, 23);
-    _compView_4 = new import5.ViewJWTComponent0(this, 4);
-    _el_4 = _compView_4.rootEl;
-    parentRenderNode.append(_el_4);
-    dbgElm(this, _el_4, 4, 2, 6);
-    _JWTComponent_4_4 = new import1.JWTComponent();
-    _compView_4.create(_JWTComponent_4_4, []);
-    import4.Text _text_5 = new import4.Text('\n    ');
+    _el_4 = createAndAppendDbg(this, doc, 'br', parentRenderNode, 4, 2, 6);
+    import4.Text _text_5 = new import4.Text('\n      ');
     parentRenderNode.append(_text_5);
-    dbgElm(this, _text_5, 5, 2, 37);
-    init(const [], const [], [_text_0, _el_1, _text_2, _text_3, _el_4, _text_5]);
+    dbgElm(this, _text_5, 5, 2, 11);
+    _compView_6 = new import5.ViewJWTComponent0(this, 6);
+    _el_6 = _compView_6.rootEl;
+    parentRenderNode.append(_el_6);
+    dbgElm(this, _el_6, 6, 3, 6);
+    _JWTComponent_6_4 = new import1.JWTComponent();
+    _compView_6.create(_JWTComponent_6_4, []);
+    import4.Text _text_7 = new import4.Text('\n    ');
+    parentRenderNode.append(_text_7);
+    dbgElm(this, _text_7, 7, 3, 37);
+    init(const [], const [], [_text_0, _el_1, _text_2, _text_3, _el_4, _text_5, _el_6, _text_7]);
     return null;
   }
 
   @override
   dynamic injectorGetInternal(dynamic token, int nodeIndex, dynamic notFoundResult) {
-    if ((identical(token, import1.JWTComponent) && (4 == nodeIndex))) {
-      return _JWTComponent_4_4;
+    if ((identical(token, import1.JWTComponent) && (6 == nodeIndex))) {
+      return _JWTComponent_6_4;
     }
     return notFoundResult;
   }
@@ -94,12 +101,12 @@ class ViewAppComponent0 extends DebugAppView<import3.AppComponent> {
       _text_2.text = currVal_0;
       _expr_0 = currVal_0;
     }
-    _compView_4.detectChanges();
+    _compView_6.detectChanges();
   }
 
   @override
   void destroyInternal() {
-    _compView_4.destroy();
+    _compView_6.destroy();
   }
 }
 
