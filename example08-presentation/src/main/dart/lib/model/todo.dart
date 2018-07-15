@@ -4,9 +4,9 @@ class Todo {
   int id;
   String title;
   String description;
-  int userId;
+  String userName;
 
   String toJSON() {
-    return JSON.encode({'title': title, 'description': description});
+    return JSON.encode({'title': title, 'description': description, 'userName':userName,'id':id});
   }
 }

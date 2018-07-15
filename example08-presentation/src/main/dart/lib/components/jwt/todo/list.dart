@@ -43,7 +43,7 @@ class TodoList {
         var todo = new Todo();
         todo.title = curJson["title"];
         todo.description = curJson["description"];
-        todo.userId = curJson["userId"];
+        todo.userName = curJson["userName"];
         loaded.add(todo);
       }
     }).catchError((n) => print(n));

@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="653416c9-588d-47e0-98c6-d70b45edf998" name="Default" comment="[Fix] Finished auth stuff for now; added logout function so that sessions get terminated server-side">
-      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/register_component.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/register_component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/user.dart" afterDir="false" />
+    <list default="true" id="653416c9-588d-47e0-98c6-d70b45edf998" name="Default" comment="[Feature] Added option to register new users">
+      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/UserCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/UserCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/auth/jwt/AuthenticationREST.java" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/auth/jwt/AuthenticationREST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/auth/jwt/AuthenticationREST.class" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/auth/jwt/AuthenticationREST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/TodoCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/classes/de/ls5/wt2/TodoCRUD.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-business/target/example08-business-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-business/target/example08-business-0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-persistence/target/example08-persistence-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-persistence/target/example08-persistence-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-business-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-business-0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-persistence-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/WEB-INF/lib/example08-persistence-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/model/todo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/lib/model/todo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/main.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/main.dart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/main.dart.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/main.dart.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/model/todo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example08-presentation/target/example08-presentation-0.1-SNAPSHOT/web/packages/example08/model/todo.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/example08-business/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,32 +33,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserCRUD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/UserCRUD.java">
+      <file leaf-file-name="login_component.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="251">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shiro.ini" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini">
+      <file leaf-file-name="TodoCRUD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-end-line="12" />
+            <state relative-caret-position="279">
+              <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,26 +60,20 @@
       <file leaf-file-name="jwt_component.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/jwt_component.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            <state relative-caret-position="153">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationREST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/auth/jwt/AuthenticationREST.java">
+      <file leaf-file-name="create.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="44" column="110" selection-start-line="44" selection-start-column="110" selection-end-line="44" selection-end-column="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register_component.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/register_component.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="115">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -91,26 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WT2Realm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/auth/WT2Realm.java">
+      <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CRUDHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/CRUDHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -150,6 +125,8 @@
       <find>createnews</find>
       <find>authenticate</find>
       <find>host:</find>
+      <find>userid</find>
+      <find>wichtig</find>
       <find>host</find>
     </findStrings>
   </component>
@@ -160,7 +137,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/web/index.html" />
-        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/pom.xml" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/example08-ds.xml" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/session/todo/list.dart" />
@@ -188,16 +164,20 @@
         <option value="$PROJECT_DIR$/example08-persistence/src/main/java/de/ls5/wt2/DBTodo.java" />
         <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/StartupBean.java" />
         <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/CRUDHelper.java" />
-        <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" />
-        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/user.dart" />
         <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/UserCRUD.java" />
-        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/jwt_component.dart" />
         <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/auth/jwt/AuthenticationREST.java" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/register_component.html" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/register_component.dart" />
         <option value="$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.dart" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/jwt_component.dart" />
+        <option value="$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html" />
+        <option value="$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.html" />
       </list>
     </option>
   </component>
@@ -255,6 +235,132 @@
             <path>
               <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="ls5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="ls5" type="462c0819:PsiDirectoryNode" />
+              <item name="wt2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="ls5" type="462c0819:PsiDirectoryNode" />
+              <item name="wt2" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="ls5" type="462c0819:PsiDirectoryNode" />
+              <item name="wt2" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="ls5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-business" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
               <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,6 +402,75 @@
               <item name="dart" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="dart" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="dart" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+              <item name="create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="dart" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="dart" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+              <item name="newest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="dart" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webtech 2 Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="example08-presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="dart" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example08-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -459,12 +634,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531609039121</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[Feature] Added option to register new users">
+      <created>1531611516260</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531611516260</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -473,10 +654,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.13539445" />
       <window_info anchor="bottom" id="Dart Analysis" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.1764706" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -527,17 +708,10 @@
     <MESSAGE value="[Fix] Readded JWT auth, Added code to read username in requests" />
     <MESSAGE value="[Fix] Added crudhelper to get username etc." />
     <MESSAGE value="[Fix] Finished auth stuff for now; added logout function so that sessions get terminated server-side" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] Finished auth stuff for now; added logout function so that sessions get terminated server-side" />
+    <MESSAGE value="[Feature] Added option to register new users" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feature] Added option to register new users" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example08-business/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-parent.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/jboss-web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -757,23 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/newest/newest_component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -808,68 +965,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/create_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="true" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/user.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/create_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/auth/jwt/AuthenticationREST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="44" column="110" selection-start-line="44" selection-start-column="110" selection-end-line="44" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/jwt_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -890,30 +989,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/register_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/auth/WT2Realm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/UserCRUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -922,8 +1001,123 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/webapp/WEB-INF/shiro.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/UserCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/user.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/model/todo.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/register_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" lean-forward="true" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/create_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="37" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/create/create_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-business/src/main/java/de/ls5/wt2/TodoCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/list.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/jwt_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/todo/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example08-presentation/src/main/dart/lib/components/jwt/login/login_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

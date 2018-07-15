@@ -1,0 +1,28 @@
+<div>
+    <h3>Todo erstellen</h3>
+    <form>
+        <dl>
+            <dt>
+                <label>Titel</label>
+            </dt>
+            <dd>
+                <input [(ngModel)]="model.title" type="text" required/>
+            </dd>
+            <dt>
+                <label>Beschreibung</label>
+            </dt>
+            <dd>
+                <input [(ngModel)]="model.description" type="text" required/>
+            </dd>
+            <dt>
+                Wichtig: Dieses Feld kann nur von Admins benutzt werden. Falls Sie kein Admin sind, wird das Todo automatisch Ihnen zugeteilt.
+                <br/>
+                <label>Username</label>
+            </dt>
+            <dd>
+                <input [(ngModel)]="model.userName" type="text" required/>
+            </dd>
+        </dl>
+        <button type="submit" (click)="createTodo($event)">Submit</button>
+    </form>
+</div>

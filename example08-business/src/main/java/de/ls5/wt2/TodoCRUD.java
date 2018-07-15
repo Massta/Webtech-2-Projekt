@@ -66,11 +66,27 @@ public class TodoCRUD {
     //@RequiresRoles("admin")
     public Response create(final DBTodo param) {
 
+        String userName = CRUDHelper.getUserName(SecurityUtils.getSubject());
+        if(userName.equals("")){
+            WT2Realm.WriteDebug("Username is empty, can't create todo");
+            return Response.status(401).build();
+        }
+        DBUser user = CRUDHelper.getUser(entityManager, userName);
+        if(user == null){
+            //Unauthorized
+            WT2Realm.WriteDebug("Can't find user in database, can't create todo");
+            return Response.status(401).build();
+        }
+
         final DBTodo todo = new DBTodo();
 
         todo.setTitle(param.getTitle());
         todo.setDescription(param.getDescription());
-        todo.setUserName(param.getUserName());
+        if(user.getIsAdmin()){
+            todo.setUserName(param.getUserName());
+        }else{
+            todo.setUserName(userName);
+        }
 
         this.entityManager.persist(todo);
 
